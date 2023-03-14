@@ -184,19 +184,20 @@
 		>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<div
-						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
-					>
-						<span class="text-2xl font-medium text-fountain-800">RA</span>
-					</div>
+					<img
+						class="aspect-square h-14 w-14 rounded-full"
+						src="/speakers/ra.png"
+						alt="Remi Appels"
+					/>
 					<div class="flex grow flex-col">
 						<div class="text-2xl">Remi Appels</div>
 						<div class="text-xl">Solution Lead @ Ordina</div>
 					</div>
 				</div>
 				<div>
-					Uncaught TypeError: Cannot read properties of undefined (reading 'bioRemiAppels') - Coming
-					soon!
+					Remi Appels has been developing and architecting mobile solutions since the announcement
+					of Apple's iPhone and the rise of Android, using native and cross-platform technology.
+					Currently, he is a Flutter enthusiast.
 				</div>
 			</div>
 		</TagBlock>
