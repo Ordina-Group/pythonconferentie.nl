@@ -15,12 +15,14 @@
 					</div>
 					<div class="flex grow flex-col">
 						<div class="text-2xl">Kitze</div>
-						<div class="text-xl">Undefined @ Null</div>
+						<div class="text-xl">Founder @ Sizzy</div>
 					</div>
 				</div>
 				<div>
-					Uncaught TypeError: Cannot read properties of undefined (reading 'bioKitze') - Coming
-					soon!
+					Kitze loves to rant about webdev. He is the founder of Sizzy - the browser for developers.
+					He created React Academy to teach React and GraphQL around the world. He's documenting his
+					journey on YouTube, streams on Twitch, and has a blog that he maintains once in a blue
+					moon. He made Better, showGPT, Twizzle, Glink, JSUI, Lucky Retweet, OK Google, etc.
 				</div>
 			</div>
 		</TagBlock>
