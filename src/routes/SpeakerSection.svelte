@@ -8,11 +8,7 @@
 		<TagBlock class="float-right max-w-lg" direction="left" extend="true">
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<div
-						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
-					>
-						<span class="text-2xl font-medium text-fountain-800">KI</span>
-					</div>
+					<img class="aspect-square h-14 w-14 rounded-full" src="/speakers/ki.png" alt="Kitze" />
 					<div class="flex grow flex-col">
 						<div class="text-2xl">Kitze</div>
 						<div class="text-xl">Founder @ Sizzy</div>
