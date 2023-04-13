@@ -2,10 +2,6 @@
 	"name": "frontendfestival.nl",
 	"version": "1.2.0",
 	"private": true,
-	"engines": {
-		"yarn": "~3.2",
-		"node": "~18.13"
-	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
