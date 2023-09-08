@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.0...v1.3.1) (2023-09-08)
+
+
+### Changed and fixed
+
+* add 'the' to make sentence more clear ([a8cb8a7](https://github.com/Ordina-Group/pythonconferentie.nl/commit/a8cb8a7a7d2175568dae17f0bdb54cdf7dbbcadc))
+
 ## [1.3.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.2.0...v1.3.0) (2023-09-08)
 
 
