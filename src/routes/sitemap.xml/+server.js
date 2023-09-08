@@ -11,7 +11,7 @@ export async function GET() {
       xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
     >
       <url>
-        <loc>https://frontendfestival.nl/</loc>
+        <loc>https://pythonconferentie.nl/</loc>
         <lastmod>2023-03-01</lastmod>
       </url>
     </urlset>`.trim(),

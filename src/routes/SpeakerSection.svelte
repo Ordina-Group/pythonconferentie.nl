@@ -5,197 +5,109 @@
 <div class="w-full bg-fountain py-10 text-black" id="speakers">
 	<div class="mb-5 w-full text-center text-4xl">Speakers</div>
 	<div class="m-auto w-full max-w-6xl">
-		<TagBlock class="float-right max-w-lg" direction="left" extend="true">
+
+		<TagBlock class="float-right max-w-lg" direction="left" extend={true}>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<img class="aspect-square h-14 w-14 rounded-full" src="/speakers/ki.png" alt="Kitze" />
+					<img class="aspect-square h-14 w-14 rounded-full" src="/speakers/mt.png" alt="Kitze" />
 					<div class="flex grow flex-col">
-						<div class="text-2xl">Kitze</div>
-						<div class="text-xl">Founder @ Sizzy</div>
+						<div class="text-2xl">Marcelo Trylesinski</div>
+						<div class="text-xl">Senior Software Engineer @ Pydantic</div>
 					</div>
 				</div>
 				<div>
-					Kitze loves to rant about webdev. He is the founder of Sizzy - the browser for developers.
-					He created React Academy to teach React and GraphQL around the world. He's documenting his
-					journey on YouTube, streams on Twitch, and has a blog that he maintains once in a blue
-					moon. He made Better, showGPT, Twizzle, Glink, JSUI, Lucky Retweet, OK Google, etc.
+					Marcelo is an open-source developer who has made significant contributions to the FastAPI community.
+					He maintains Starlette, a critical dependency of FastAPI, and Uvicorn, a high-performance web server
+					that powers FastAPI applications. His invaluable contributions led to his hiring as a senior software
+					engineer by Pydantic, a widely used library for data validation and serialization. Apart from
+					software development, Marcelo enjoys fitness, soccer, photography, and dancing. He's a well-rounded
+					individual who's always eager to learn and grow.
 				</div>
 			</div>
 		</TagBlock>
 
 		<TagBlock
-			class="float-left mt-5 max-w-lg lg:mt-24"
+			class="float-left mt-5 max-w-lg lg:mt-64"
 			direction="right"
 			backgroundColor="shark"
-			extend="true"
+			extend={true}
 		>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/fvp.png"
-						alt="Frank van Puffelen"
-					/>
+					<div
+						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
+					>
+						<span class="text-2xl font-medium text-fountain-800">JB</span>
+					</div>
 					<div class="flex grow flex-col">
-						<div class="text-2xl">Frank van Puffelen / puf</div>
-						<div class="text-xl">Firebase engineer @ Google</div>
+						<div class="text-2xl">Jan-Hein Bührman</div>
+						<div class="text-xl">Principal Consultant @ Ordina</div>
 					</div>
 				</div>
 				<div>
-					Frank van Puffelen (puf) is a Firebase engineer at Google in San Francisco, where he helps
-					developers build better apps using Firebase and other Google technologies. He's the host
-					of the Firebase Release Notes video series, one of the top contributors on Stack Overflow,
-					and multi-time speaker at Google I/O.
+					AttributeError: 'dict' object has no attribute 'speakerInfo'<br>(a.k.a. coming soon)
 				</div>
 			</div>
 		</TagBlock>
 
-		<TagBlock class="float-right mt-5 max-w-lg lg:mt-36" direction="left" extend="true">
+		<TagBlock class="float-right mt-5 max-w-lg lg:mt-5" direction="left" extend={true}>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/de.png"
-						alt="Davy Engone"
-					/>
+					<div
+						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
+					>
+						<span class="text-2xl font-medium text-fountain-800">ML</span>
+					</div>
 					<div class="flex grow flex-col">
-						<div class="text-2xl">Davy Engone</div>
-						<div class="text-xl">Founder @ Hackages.io</div>
+						<div class="text-2xl">Marc-André Lemburg</div>
+						<div class="text-xl">CEO @ eGenix.com</div>
 					</div>
 				</div>
 				<div>
-					Davy is a software engineer who loves types. He's building education tools for developers.
-					He loves sharing knowledge and learning from everyone. If he's not coding, he's spending
-					time with his 2 boys and his fiancée. He's also a long-distance runner and a basketball
-					player.
+					AttributeError: 'dict' object has no attribute 'speakerInfo'<br>(a.k.a. coming soon)
 				</div>
 			</div>
 		</TagBlock>
 
 		<TagBlock
-			class="float-left mt-5 max-w-lg lg:mt-28"
+			class="float-left mt-5 max-w-lg lg:mt-5"
 			direction="right"
 			backgroundColor="shark"
-			extend="true"
+			extend={true}
 		>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/oh.png"
-						alt="Oscar Hahn"
-					/>
+					<div
+						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
+					>
+						<span class="text-2xl font-medium text-fountain-800">LC</span>
+					</div>
 					<div class="flex grow flex-col">
-						<div class="text-2xl">Oscar Hahn</div>
-						<div class="text-xl">Solutions Architect @ AWS</div>
+						<div class="text-2xl">Laís Carvalho</div>
+						<div class="text-xl">Software Engioneer @ Workday</div>
 					</div>
 				</div>
 				<div>
-					Oscar is a cloud computing expert with experience in building serverless (web)
-					applications using CI/CD principles. In his current Solutions Architect role at AWS he is
-					advising and guiding customers in designing and implementing cloud based solutions to
-					optimise their business operations.
+					AttributeError: 'dict' object has no attribute 'speakerInfo'<br>(a.k.a. coming soon)
 				</div>
 			</div>
 		</TagBlock>
 
-		<TagBlock class="float-right mt-5 max-w-lg lg:mt-32" direction="left" extend="true">
+		<TagBlock class="float-right mt-5 max-w-lg lg:mt-5" direction="left" extend={true}>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/rs.png"
-						alt="Robbin Schepers"
-					/>
+					<div
+						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
+					>
+						<span class="text-2xl font-medium text-fountain-800">SZ</span>
+					</div>
 					<div class="flex grow flex-col">
-						<div class="text-2xl">Robbin Schepers / Roboroads</div>
+						<div class="text-2xl">Sebastiaan Zeeff</div>
 						<div class="text-xl">Senior Software Engineer @ Ordina</div>
 					</div>
 				</div>
 				<div>
-					Robbin Schepers is a Professional Computer Nerd and has a deep love for everythiong
-					computer and tech related. He is a Senior Software Engineer at Ordina since 2021,
-					freelancer since 2013 and even public speaker since 2022. He loves representing tech
-					stacks that use the least amount of code whilst still being fully functional like Flutter
-					and Svelte. He also created this website in SvelteKit!
-				</div>
-			</div>
-		</TagBlock>
-
-		<TagBlock
-			class="float-left mt-5 max-w-lg lg:mt-48"
-			direction="right"
-			backgroundColor="shark"
-			extend="true"
-		>
-			<div class="flex w-full flex-col">
-				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/jk.png"
-						alt="Oscar Hahn"
-					/>
-					<div class="flex grow flex-col">
-						<div class="text-2xl">Jorrik Klijnsma</div>
-						<div class="text-xl">Software Engineer @ Ordina</div>
-					</div>
-				</div>
-				<div>
-					Jorrik’s first lines of code were in the days jQuery ruled. That didn’t scare him. Now he
-					has 6+ years of frontend experience using React and Vue during his day job. In the evening
-					and night hours, a lot of fun projects and other libraries passed his ‘git clone’. When
-					not coding he gets his fair share of laughs going to comedy shows.
-				</div>
-			</div>
-		</TagBlock>
-
-		<TagBlock class="float-right mt-5 max-w-lg lg:mt-44" direction="left" extend="true">
-			<div class="flex w-full flex-col">
-				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/pe.png"
-						alt="Peter Eijgermans"
-					/>
-					<div class="flex grow flex-col">
-						<div class="text-2xl">Peter Eijgermans</div>
-						<div class="text-xl">Code Smith @ Ordina</div>
-					</div>
-				</div>
-				<div>
-					Peter Eijgermans is a long-time software developer and an adventurous and passionate
-					CodeSmith Frontend at Ordina Netherlands. He likes to travel around the world with his
-					bike. Always seeking for the unexpected and unknown. For his job he tries out the latest
-					techniques and frameworks. He loves to share his experience by speaking at conferences all
-					over the World and writing for the Dutch Java magazine, ToTheRoot.nl and DZone. He
-					believes that you as the front-end developer are the spider in the web to bring the user,
-					the team and the product together.
-				</div>
-			</div>
-		</TagBlock>
-
-		<TagBlock
-			class="float-left mt-5 max-w-lg lg:mt-72"
-			direction="right"
-			backgroundColor="shark"
-			extend="true"
-		>
-			<div class="flex w-full flex-col">
-				<div class="flex grow items-center gap-2">
-					<img
-						class="aspect-square h-14 w-14 rounded-full"
-						src="/speakers/ra.png"
-						alt="Remi Appels"
-					/>
-					<div class="flex grow flex-col">
-						<div class="text-2xl">Remi Appels</div>
-						<div class="text-xl">Solution Lead @ Ordina</div>
-					</div>
-				</div>
-				<div>
-					Remi Appels has been developing and architecting mobile solutions since the announcement
-					of Apple's iPhone and the rise of Android, using native and cross-platform technology.
-					Currently, he is a Flutter enthusiast.
+					AttributeError: 'dict' object has no attribute 'speakerInfo'<br>(a.k.a. coming soon)
 				</div>
 			</div>
 		</TagBlock>

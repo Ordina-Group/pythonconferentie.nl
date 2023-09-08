@@ -9,15 +9,15 @@
 	<Poster animated />
 	<div class="z-50 flex max-h-full flex-col justify-center text-center">
 		<h1 class="block w-screen max-w-4xl px-5 py-20">
-			<a href="https://frontendfestival.nl">
-				<img src="/logo.svg" alt="Frontend Festival Logo" class="" />
+			<a href="https://pythonconferentie.nl">
+				<img src="/logo.svg" alt="Python Conference Logo" class="" />
 			</a>
 		</h1>
 		<a
 			class="inline"
 			target="_blank"
 			rel="noreferrer"
-			href="https://www.eventbrite.com/e/tickets-frontend-festival-522544092447"
+			href="https://www.eventbrite.nl/e/tickets-python-conference-utrecht-715964698687"
 		>
 			<TagBlock class="text-lg" backgroundColor="fountain">
 				tickets.getYoursFor<span class="font-bold">Free</span>();
