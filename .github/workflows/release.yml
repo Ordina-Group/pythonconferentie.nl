@@ -23,19 +23,19 @@ jobs:
           changelog-types: '[{"type":"feat","section":"New","hidden":false},{"type":"fix","section":"Changed and fixed","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
 
       - uses: actions/checkout@v2
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: npm install, build, and test
         run: |
           npm install
           npm run build --if-present
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -45,4 +45,4 @@ jobs:
           slot-name: 'production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4E1202AD63FF43729109C7F4E9C1F6B0 }}
           package: .
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
