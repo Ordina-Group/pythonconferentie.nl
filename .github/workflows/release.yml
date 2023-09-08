@@ -4,6 +4,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -15,7 +19,7 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: rentman-dashboard
+          package-name: pythonconference
           changelog-types: '[{"type":"feat","section":"New","hidden":false},{"type":"fix","section":"Changed and fixed","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
 
       - uses: actions/checkout@v2
