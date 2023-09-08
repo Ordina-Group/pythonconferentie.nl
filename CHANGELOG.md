@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.1...v1.3.2) (2023-09-08)
+
+
+### Changed and fixed
+
+* Fixed time for Jan-Hein's talk ([a9a2b30](https://github.com/Ordina-Group/pythonconferentie.nl/commit/a9a2b308a2487ecf3b941b6ea3a985a225ee0ab6))
+* JS syntax to PY syntax for tickets button joke ([48589fe](https://github.com/Ordina-Group/pythonconferentie.nl/commit/48589fe1b56f6d578a16f0470f9018bb1f4d711c))
+
 ## [1.3.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.0...v1.3.1) (2023-09-08)
 
 
