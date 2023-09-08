@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.2...v1.3.3) (2023-09-08)
+
+
+### Changed and fixed
+
+* Removed "workshops" ([2d66e5f](https://github.com/Ordina-Group/pythonconferentie.nl/commit/2d66e5f1bfdd252b98ae8ac6f851ea6127ffd461))
+
 ## [1.3.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.1...v1.3.2) (2023-09-08)
 
 
