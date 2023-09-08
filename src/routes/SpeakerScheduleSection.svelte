@@ -29,7 +29,7 @@
 	</TagBlock>
 	<TagBlock class="mt-2" direction="left" extend={true} backgroundColor="ordina">
 		<div class="flex w-screen max-w-xl gap-5">
-			<div class="pl-5 text-2xl">17:45</div>
+			<div class="pl-5 text-2xl">14:50</div>
 			<div class="inline-flex grow flex-col">
 				<div class="text-2xl">Coming soon</div>
 				<div class="text-xl">Jan-Hein Bührman (Ordina)</div>
