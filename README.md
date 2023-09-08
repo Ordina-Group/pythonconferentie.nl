@@ -21,3 +21,15 @@ This should do it all:
 npm i
 npm run dev
 ```
+
+## Azure notes
+
+Make sure startup script is the following in azure:
+
+```bash
+pm2 start ecosystem.config.cjs --no-daemon
+```
+
+### Releasing
+
+Releasing is as simple as pushing to main and merging the PR created by release-please after.

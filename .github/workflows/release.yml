@@ -43,6 +43,6 @@ jobs:
         with:
           app-name: 'PythonConference'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_592d9de538b8408890c8c1e3e249fc69 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4E1202AD63FF43729109C7F4E9C1F6B0 }}
           package: .
         if: ${{ steps.release.outputs.release_created }}
