@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.3.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.2.0...v1.3.0) (2023-09-08)
+
+
+### New
+
+* Added bio of Davy Engone ([4768c85](https://github.com/Ordina-Group/pythonconferentie.nl/commit/4768c85019e4d1e3bedd066c877ec39ca8d39e79))
+* Splash screen ([0dd91fd](https://github.com/Ordina-Group/pythonconferentie.nl/commit/0dd91fd461dcef02d6f3fc98496d78602a3f17db))
+
+
+### Changed and fixed
+
+* Added bio Kitze ([10bdff3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/10bdff316b26b09f62abbe86f91e5eba49e32cda))
+* Added picture Kitze ([acfa63c](https://github.com/Ordina-Group/pythonconferentie.nl/commit/acfa63cc76d613cc18c6e8386933f86b47ba629a))
+* First known changes from FEF to PYC ([39a2dd9](https://github.com/Ordina-Group/pythonconferentie.nl/commit/39a2dd9d5d73b6beea5eb20270d3dab7591a1e6a))
+* Fixed speakers spacing ([6d9cf61](https://github.com/Ordina-Group/pythonconferentie.nl/commit/6d9cf6198109526a09fe16fca8d43735b21af404))
+* New intro text ([68c524c](https://github.com/Ordina-Group/pythonconferentie.nl/commit/68c524c925114919ebafbc7c46110a10092bc348))
+* Replace JS joke with Python joke ([ad9c49a](https://github.com/Ordina-Group/pythonconferentie.nl/commit/ad9c49a24c1d6e5868dceb78574b4254c87014b6))
+* Replaced Remi Appels placeholder with actual info ([926d5b9](https://github.com/Ordina-Group/pythonconferentie.nl/commit/926d5b912e451ac404a238b1fa55b2aa4154491a))
+
+
+### Miscellaneous
+
+* **deps:** Updated dependencies ([ff75c8a](https://github.com/Ordina-Group/pythonconferentie.nl/commit/ff75c8af4cfd0e519d070511ac83ed513ed7d696))
+* Move to npm ([936e520](https://github.com/Ordina-Group/pythonconferentie.nl/commit/936e52010c967f5dc6490a75bc1c1e7abe0d29c2))
+
 ## [1.2.0](https://github.com/OrdinaNederland/pythonconferentie.nl/compare/v1.1.0...v1.2.0) (2023-03-09)
 
 
