@@ -44,7 +44,7 @@
 		rel="noreferrer"
 		href="https://www.eventbrite.nl/e/tickets-python-conference-utrecht-715964698687"
 	>
-		<TagBlock class="text-xl">tickets.getYoursFor<span class="font-bold">Free</span>()</TagBlock>
+		<TagBlock class="text-xl">tickets.get_yours_for_<span class="font-bold">free</span>()</TagBlock>
 	</a>
 
 	<a
