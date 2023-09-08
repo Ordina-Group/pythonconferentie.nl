@@ -20,12 +20,12 @@
 			href="https://www.eventbrite.nl/e/tickets-python-conference-utrecht-715964698687"
 		>
 			<TagBlock class="text-lg" backgroundColor="fountain">
-				tickets.getYoursFor<span class="font-bold">Free</span>();
+				tickets.getYoursFor<span class="font-bold">Free</span>()
 			</TagBlock>
 		</a>
 		<div class="flex-center absolute bottom-0 left-0 w-full">
 			<a class="mb-10 inline" href="#info">
-				<Icon class="text-white opacity-75" data={chevronDown} scale="3" />
+				<Icon class="text-white opacity-75" data={chevronDown} scale={3} />
 			</a>
 		</div>
 	</div>
