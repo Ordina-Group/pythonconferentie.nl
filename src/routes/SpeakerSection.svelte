@@ -36,7 +36,9 @@
 			name: 'Laís Carvalho',
 			letters: 'LC',
 			title: 'Software Engineer',
-			employer: 'Workday'
+			employer: 'Workday',
+			image: '/speakers/lc.png',
+			bio: 'Laís Carvalho is an active member of the Python community, being the first black female board member of Python Ireland, an organiser of the EuroPython Conference and HumbleData events, a non-profit organisation focused on mentoring underrepresented minorities on Python and Data Science. Lais is an experienced developer advocate and speaker who is passionate about leadership and volunteering. She now works as a Software Developer building monitoring tools at Workday Inc. Lais is excited about food, documentation, and communication. Her main core values are courage and kindness.',
 		},
 		{
 			name: 'Jodie Burchell',
