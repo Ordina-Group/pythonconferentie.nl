@@ -79,8 +79,9 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">18:00</div>
 			<div class="inline-flex grow flex-col">
-				<div class="text-2xl">Coming soon</div>
+				<div class="text-2xl">Internals</div>
 				<div class="text-xl">Sebastiaan Zeeff (Ordina)</div>
+				<div class="text-lg">The Magic Of Self: How Python Inserts Self Into Methods</div>
 			</div>
 		</div>
 	</TagBlock>

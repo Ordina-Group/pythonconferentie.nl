@@ -9,7 +9,7 @@
 		<TagBlock class="float-right max-w-lg" direction="left" extend={true}>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<img class="aspect-square h-14 w-14 rounded-full" src="/speakers/mt.png" alt="Kitze" />
+					<img class="aspect-square h-14 w-14 rounded-full" src="/speakers/mt.png" alt="Marcelo Trylesinski" />
 					<div class="flex grow flex-col">
 						<div class="text-2xl">Marcelo Trylesinski</div>
 						<div class="text-xl">Senior Software Engineer @ Pydantic</div>
@@ -96,18 +96,17 @@
 		<TagBlock class="float-right mt-5 max-w-lg lg:mt-5" direction="left" extend={true}>
 			<div class="flex w-full flex-col">
 				<div class="flex grow items-center gap-2">
-					<div
-						class="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-fountain"
-					>
-						<span class="text-2xl font-medium text-fountain-800">SZ</span>
-					</div>
+					<img class="aspect-square h-14 w-14 rounded-full" src="/speakers/sz.png" alt="Sebastiaan Zeeff" />
 					<div class="flex grow flex-col">
 						<div class="text-2xl">Sebastiaan Zeeff</div>
 						<div class="text-xl">Senior Software Engineer @ Ordina</div>
 					</div>
 				</div>
 				<div>
-					AttributeError: 'dict' object has no attribute 'speakerInfo'<br>(a.k.a. coming soon)
+					Sebastiaan is a senior software engineer for the Ordina Pythoneers and a Fellow of the
+          Python Software Foundation. He is also one of the founders of Python Discord and an
+          organiser of EuroPython. Sebastiaan frequently speaks at conferences all around
+          the world, including PyCon US, EuroPython, PyCon APAC, and various regional PyCons.
 				</div>
 			</div>
 		</TagBlock>
