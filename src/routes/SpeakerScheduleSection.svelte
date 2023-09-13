@@ -56,8 +56,9 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">16:25</div>
 			<div class="inline-flex grow flex-col">
-				<div class="text-2xl">Coming soon</div>
+				<div class="text-2xl">Life</div>
 				<div class="text-xl">Laís Carvalho (Workday)</div>
+				<div class="text-lg">It Is Good To Be Alive: what Python has thought me about life</div>
 			</div>
 		</div>
 	</TagBlock>
