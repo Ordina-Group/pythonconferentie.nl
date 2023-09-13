@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.4.0...v1.5.0) (2023-09-13)
+
+
+### New
+
+* Added speaker info for Jan-Hein Bührman ([8c7c258](https://github.com/Ordina-Group/pythonconferentie.nl/commit/8c7c2584c3fd96564df0ffcc2565187d8873ed21))
+
 ## [1.4.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.3...v1.4.0) (2023-09-13)
 
 
