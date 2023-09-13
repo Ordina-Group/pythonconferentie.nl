@@ -39,6 +39,14 @@
 			employer: 'Workday'
 		},
 		{
+			name: 'Jodie Burchell',
+			letters: 'JB',
+			title: 'Data Science Developer Advocate',
+			employer: 'JetBrains',
+			image: '/speakers/jb.png',
+			bio: "Dr. Jodie Burchell is the Developer Advocate in Data Science at JetBrains, and was previously a Lead Data Scientist at Verve Group Europe. She completed a PhD in clinical psychology and a postdoc in biostatistics, before leaving academia for a data science career. She has worked for 7 years as a data scientist in both Australia and Germany, developing a range of products including recommendation systems, analysis platforms, search engine improvements and audience profiling. She has held a broad range of responsibilities in her career, doing everything from data analytics to maintaining machine learning solutions in production. She is a long time content creator in data science, across conference and user group presentations, books, webinars, and posts on both her own and JetBrain's blogs."
+		},
+		{
 			name: 'Sebastiaan Zeeff',
 			letters: 'SZ',
 			title: 'Senior Software Engineer',
