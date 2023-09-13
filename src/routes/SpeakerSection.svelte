@@ -1,6 +1,6 @@
 <script lang="ts">
 	import TagBlock from '$lib/components/TagBlock.svelte';
-	import {fade} from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 
 	type Speaker = {
 		name: string;
@@ -38,7 +38,7 @@
 			title: 'Software Engineer',
 			employer: 'Workday',
 			image: '/speakers/lc.png',
-			bio: 'Laís Carvalho is an active member of the Python community, being the first black female board member of Python Ireland, an organiser of the EuroPython Conference and HumbleData events, a non-profit organisation focused on mentoring underrepresented minorities on Python and Data Science. Lais is an experienced developer advocate and speaker who is passionate about leadership and volunteering. She now works as a Software Developer building monitoring tools at Workday Inc. Lais is excited about food, documentation, and communication. Her main core values are courage and kindness.',
+			bio: 'Laís Carvalho is an active member of the Python community, being the first black female board member of Python Ireland, an organiser of the EuroPython Conference and HumbleData events, a non-profit organisation focused on mentoring underrepresented minorities on Python and Data Science. Lais is an experienced developer advocate and speaker who is passionate about leadership and volunteering. She now works as a Software Developer building monitoring tools at Workday Inc. Lais is excited about food, documentation, and communication. Her main core values are courage and kindness.'
 		},
 		{
 			name: 'Jodie Burchell',
@@ -61,7 +61,7 @@
 	let focussedSpeaker: number | null = null;
 </script>
 
-<div class="relative w-full bg-gray-300 py-10 px-2 text-black" id="speakers">
+<div class="relative w-full bg-gray-300 px-2 py-10 text-black" id="speakers">
 	<div class="mb-24 w-full text-center text-4xl">Speakers</div>
 
 	{#if focussedSpeaker === null}
@@ -91,7 +91,7 @@
 						<div class="text-xl md:text-2xl">{speaker.name}</div>
 						<div class="text-lg">{speaker.title}</div>
 						<div class="text-md">{speaker.employer}</div>
-						<div class="text-sm line-clamp-2 overflow-ellipsis">
+						<div class="line-clamp-2 overflow-ellipsis text-sm">
 							{#if speaker.bio}
 								{speaker.bio}
 							{:else}
@@ -99,11 +99,14 @@
 							{/if}
 						</div>
 						{#if speaker.bio}
-							<button on:click={() => (focussedSpeaker = index)} class="cursor-pointer select-none mt-2">
+							<button
+								on:click={() => (focussedSpeaker = index)}
+								class="mt-2 cursor-pointer select-none"
+							>
 								<TagBlock small backgroundColor="ordina">Read more</TagBlock>
 							</button>
 						{:else}
-							<TagBlock class="opacity-75 mt-2" small backgroundColor="ordina"
+							<TagBlock class="mt-2 opacity-75" small backgroundColor="ordina"
 								>Bio coming soon..</TagBlock
 							>
 						{/if}
@@ -132,9 +135,9 @@
 					>
 				</div>
 			{/if}
-						<div class="text-xl">{speakers[focussedSpeaker].name}</div>
-						<div class="text-lg">{speakers[focussedSpeaker].title}</div>
-						<div class="text-md">{speakers[focussedSpeaker].employer}</div>
+			<div class="text-xl">{speakers[focussedSpeaker].name}</div>
+			<div class="text-lg">{speakers[focussedSpeaker].title}</div>
+			<div class="text-md">{speakers[focussedSpeaker].employer}</div>
 			<div>
 				{#if speakers[focussedSpeaker].bio}
 					{speakers[focussedSpeaker].bio}
@@ -143,7 +146,7 @@
 					soon.
 				{/if}
 			</div>
-			<button on:click={() => (focussedSpeaker = null)} class="cursor-pointer select-none mt-2">
+			<button on:click={() => (focussedSpeaker = null)} class="mt-2 cursor-pointer select-none">
 				<TagBlock small backgroundColor="ordina">Back</TagBlock>
 			</button>
 		</div>
