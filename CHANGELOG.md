@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.4.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.3...v1.4.0) (2023-09-13)
+
+
+### New
+
+* Add Jodie Burchell speaker info ([f0eeabf](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f0eeabfbed9ec587b4ea5a4e5ed0726a6e909b2a))
+* Added Laís' talk to the schedule ([9a85aa9](https://github.com/Ordina-Group/pythonconferentie.nl/commit/9a85aa9f39bcd6e1f60da01eedcc12ba0c4a968e))
+* Added speaker info for Laís Carvalho ([3b3195a](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3b3195a54866e46508d589790b0e26ce184cbedf))
+* Added speaker info for Sebastiaan Zeeff ([02b966e](https://github.com/Ordina-Group/pythonconferentie.nl/commit/02b966e0ab1b7e3b6a23a948522f63b970fee503))
+* New speaker section design ([a08d3c0](https://github.com/Ordina-Group/pythonconferentie.nl/commit/a08d3c066505230a1ffc9dcf56c1a3eda836b550))
+
+
+### Changed and fixed
+
+* Makes mt photo more data-friendly ([f06ac51](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f06ac51de8eabcd41728f45d3acf7594aaa888a3))
+
 ## [1.3.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.2...v1.3.3) (2023-09-08)
 
 ### Changed and fixed
