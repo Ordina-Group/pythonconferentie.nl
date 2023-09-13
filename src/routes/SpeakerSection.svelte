@@ -1,6 +1,6 @@
 <script lang="ts">
 	import TagBlock from '$lib/components/TagBlock.svelte';
-	import { fade } from 'svelte/transition';
+	import {fade} from 'svelte/transition';
 
 	type Speaker = {
 		name: string;
@@ -24,7 +24,9 @@
 			name: 'Jan-Hein Bührman',
 			letters: 'JB',
 			title: 'Principal Consultant',
-			employer: 'Ordina'
+			employer: 'Ordina',
+			image: '/speakers/jhb.png',
+			bio: 'Jan-Hein is a software engineer who witnessed Python’s first baby steps up very close, and loves programming in Python since then. While he worked in different software development roles, he always kept an eye on its development. After he has founded a dedicated Python software unit within Ordina, the company he works for, he’s now back at the work that leaves him with a positive energy balance at the end of the day: programming in Python!',
 		},
 		{
 			name: 'Marc-André Lemburg',

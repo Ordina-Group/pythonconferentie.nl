@@ -31,8 +31,9 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">14:50</div>
 			<div class="inline-flex grow flex-col">
-				<div class="text-2xl">Coming soon</div>
+				<div class="text-2xl">Generators</div>
 				<div class="text-xl">Jan-Hein Bührman (Ordina)</div>
+				<div class="text-lg">When to refactor your code into generators and how</div>
 			</div>
 		</div>
 	</TagBlock>
