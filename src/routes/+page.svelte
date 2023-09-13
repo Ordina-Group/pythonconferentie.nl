@@ -11,11 +11,7 @@
 	<title>Python Conference 2023</title>
 
 	<meta name="title" property="og:title" content="Python Conference 2023" />
-	<meta
-		name="description"
-		property="og:description"
-		content="Python Conference 2023"
-	/>
+	<meta name="description" property="og:description" content="Python Conference 2023" />
 	<meta name="type" property="og:type" content="website" />
 	<meta name="url" property="og:url" content="https://pythonconferentie.nl/" />
 	<meta
@@ -26,9 +22,11 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<HeaderSection />
-<InfoSection />
-<SpeakerScheduleSection />
-<Spacer />
-<SpeakerSection />
-<PracticalInformationSection />
+<div>
+	<HeaderSection />
+	<InfoSection />
+	<SpeakerScheduleSection />
+	<Spacer />
+	<SpeakerSection />
+	<PracticalInformationSection />
+</div>

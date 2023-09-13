@@ -4,7 +4,7 @@
 	export let extend: boolean = false;
 	export let small: boolean = false;
 
-	let componentClass;
+	let componentClass: string = '';
 	export { componentClass as class };
 </script>
 

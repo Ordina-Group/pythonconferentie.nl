@@ -71,7 +71,9 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">17:20</div>
 			<div class="inline-flex grow flex-col">
-				<div class="text-2xl">Coming soon</div>
+				<div class="text-2xl">AI</div>
+				<div class="text-xl">Jodie Burchell (Ordina)</div>
+				<div class="text-lg">The IQ of AI: Measuring Intelligence in AI Models</div>
 			</div>
 		</div>
 	</TagBlock>
