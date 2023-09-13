@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.0...v1.5.1) (2023-09-13)
+
+
+### Changed and fixed
+
+* Changed employer of Jodie Burchell ([cd8f446](https://github.com/Ordina-Group/pythonconferentie.nl/commit/cd8f446071e248b482c69493098d04a1a6f7fc4b))
+
 ## [1.5.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.4.0...v1.5.0) (2023-09-13)
 
 
