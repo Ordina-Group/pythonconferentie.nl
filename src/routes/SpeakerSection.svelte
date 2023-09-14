@@ -92,8 +92,8 @@
 								<span class="text-6xl font-medium text-fountain-800">{speaker.letters}</span>
 							</div>
 						{/if}
-						<div class="text-xl md:text-2xl">{speaker.name}</div>
-						<div class="text-lg">{speaker.title}</div>
+						<div class="text-xl md:text-2xl font-bold">{speaker.name}</div>
+						<div class="text-lg italic">{speaker.title}</div>
 						<div class="text-md">{speaker.employer}</div>
 						<div class="line-clamp-2 overflow-ellipsis text-sm">
 							{#if speaker.bio}

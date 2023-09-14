@@ -21,7 +21,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">14:10</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl">The validation evolution: Pydantic V2tronger</div>
+				<div class="text-xl font-bold">The validation evolution: Pydantic V2tronger</div>
 				<div class="text-lg">Marcelo Trylesinski (Pydantic)</div>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">14:50</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl">When to refactor your code into generators and how</div>
+				<div class="text-xl font-bold">When to refactor your code into generators and how</div>
 				<div class="text-lg">Jan-Hein Bührman (Ordina)</div>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">15:45</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl">Diving into Event-Driven Architechtures</div>
+				<div class="text-xl font-bold">Diving into Event-Driven Architechtures</div>
 				<div class="text-lg">Marc-André Lemburg (eGenix)</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">16:25</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl">It Is Good To Be Alive: what Python has thought me about life</div>
+				<div class="text-xl font-bold">It Is Good To Be Alive: what Python has thought me about life</div>
 				<div class="text-lg">Laís Carvalho (Workday)</div>
 			</div>
 		</div>
@@ -69,7 +69,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">17:20</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl">The IQ of AI: Measuring Intelligence in AI Models</div>
+				<div class="text-xl font-bold">The IQ of AI: Measuring Intelligence in AI Models</div>
 				<div class="text-lg">Jodie Burchell (JetBrains)</div>
 			</div>
 		</div>
@@ -78,7 +78,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">18:00</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl">The Magic Of Self: How Python Inserts Self Into Methods</div>
+				<div class="text-xl font-bold">The Magic Of Self: How Python Inserts Self Into Methods</div>
 				<div class="text-lg">Sebastiaan Zeeff (Ordina)</div>
 			</div>
 		</div>
