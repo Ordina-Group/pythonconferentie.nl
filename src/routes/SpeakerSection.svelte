@@ -1,8 +1,8 @@
 <script lang="ts">
-	import TagBlock from '$lib/components/TagBlock.svelte';
-	import {fade} from 'svelte/transition';
+  import TagBlock from '$lib/components/TagBlock.svelte';
+  import {fade} from 'svelte/transition';
 
-	type Speaker = {
+  type Speaker = {
 		name: string;
 		letters: string;
 		title: string;
@@ -32,7 +32,9 @@
 			name: 'Marc-André Lemburg',
 			letters: 'ML',
 			title: 'CEO',
-			employer: 'eGenix.com'
+			employer: 'eGenix.com',
+      image: '/speakers/ml.png',
+      bio: 'Marc-Andre is the CEO and founder of eGenix.com, a Python-focused project and consulting company based in Germany, specializing in the data, finance and database space. He has a degree in mathematics from the University of Düsseldorf.\n\nHis work with and for Python started in 1994. He is a Python Core Developer, designed and implemented the Unicode support in Python, and author of several open source libraries and tools (e.g. the mx Extensions mxDateTime and mxODBC).\n\nMarc-Andre is a EuroPython Society (EPS) Fellow, a Python Software Foundation (PSF) founding Fellow and co-founded a local Python meeting in Düsseldorf (PyDDF). He served on the board of the PSF and EPS for many years and loves to contribute to the growth of Python wherever he can.',
 		},
 		{
 			name: 'Laís Carvalho',
@@ -140,7 +142,7 @@
 			<div class="text-xl">{speakers[focussedSpeaker].name}</div>
 			<div class="text-lg">{speakers[focussedSpeaker].title}</div>
 			<div class="text-md">{speakers[focussedSpeaker].employer}</div>
-			<div>
+			<div class="whitespace-pre-line">
 				{#if speakers[focussedSpeaker].bio}
 					{speakers[focussedSpeaker].bio}
 				{:else}
