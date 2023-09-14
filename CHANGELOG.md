@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.2...v1.5.3) (2023-09-14)
+
+
+### Changed and fixed
+
+* Text style changes based on feedback ([3d80008](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3d80008ea5c6b8d77452c92acdb50bad5f82ab20))
+
 ## [1.5.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.1...v1.5.2) (2023-09-14)
 
 
