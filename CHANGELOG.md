@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.1...v1.5.2) (2023-09-14)
+
+
+### Changed and fixed
+
+* Added speaker info for Marc-André Lemburg ([3a56738](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3a56738acbbb102d6247fdcbc3d14c0bbbff2272))
+* Talk titles now on top ([641989e](https://github.com/Ordina-Group/pythonconferentie.nl/commit/641989e8d7c9567f8ae32d56b22ae6add869b225))
+
 ## [1.5.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.0...v1.5.1) (2023-09-13)
 
 
