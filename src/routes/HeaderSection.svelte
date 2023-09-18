@@ -1,12 +1,12 @@
 <script>
-	import Poster from '$lib/components/Poster.svelte';
-	import TagBlock from '$lib/components/TagBlock.svelte';
-	import { Icon } from 'svelte-awesome';
-	import { chevronDown } from 'svelte-awesome/icons';
+  import Poster from '$lib/components/Poster.svelte';
+  import TagBlock from '$lib/components/TagBlock.svelte';
+  import {Icon} from 'svelte-awesome';
+  import {chevronDown} from 'svelte-awesome/icons';
 </script>
 
 <header class="flex-center relative h-[85vh] w-full bg-shark" id="header">
-	<Poster animated />
+	<Poster />
 	<div class="z-50 flex max-h-full flex-col justify-center text-center">
 		<h1 class="block w-screen max-w-4xl px-5 py-20">
 			<a href="https://pythonconferentie.nl">
