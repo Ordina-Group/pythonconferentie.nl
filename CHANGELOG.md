@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.4](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.3...v1.5.4) (2023-09-18)
+
+
+### Changed and fixed
+
+* Remove header animation, as it is epilepsy inducing. ([029f2c8](https://github.com/Ordina-Group/pythonconferentie.nl/commit/029f2c8bb3e9ba25040a50c2a4fad6fa224cb8e9))
+
 ## [1.5.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.2...v1.5.3) (2023-09-14)
 
 
