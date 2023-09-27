@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.5](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.4...v1.5.5) (2023-09-27)
+
+
+### Changed and fixed
+
+* Changed title of Laís' talk ([7670d6d](https://github.com/Ordina-Group/pythonconferentie.nl/commit/7670d6dcbc5527f994ed702b44a18b6c3148169c))
+
 ## [1.5.4](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.3...v1.5.4) (2023-09-18)
 
 
