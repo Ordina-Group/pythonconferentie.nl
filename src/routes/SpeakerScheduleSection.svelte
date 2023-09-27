@@ -54,7 +54,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-5 text-2xl">16:25</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl font-bold">It Is Good To Be Alive: what Python has thought me about life</div>
+				<div class="text-xl font-bold">Python and Freedom and Bias</div>
 				<div class="text-lg">Laís Carvalho (Workday)</div>
 			</div>
 		</div>
