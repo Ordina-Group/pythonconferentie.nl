@@ -27,7 +27,7 @@
 					/></a
 				>
 				<div class="flex flex-col">
-					<div class="text-2xl">Where: Jaarbeurs Utrecht</div>
+					<div class="text-2xl">Where: Media Plaza (Jaarbeurs Utrecht)</div>
 					<div class="text-xl">Jaarbeursplein 6</div>
 					<div class="text-xl">3521 AL Utrecht</div>
 					<div class="text-xl">The Netherlands</div>
