@@ -20,7 +20,10 @@
 			href="https://www.eventbrite.nl/e/tickets-python-conference-utrecht-715964698687"
 		>
 			<TagBlock class="text-lg" backgroundColor="fountain">
-				tickets.get_yours_for_<span class="font-bold">free</span>()
+				<div class="flex flex-col">
+          <div>tickets.get_yours_for_<span class="font-bold">free</span>()</div>
+          <div class="text-xs italic">Registration ends October 8th 23:59</div>
+        </div>
 			</TagBlock>
 		</a>
 		<div class="flex-center absolute bottom-0 left-0 w-full">
