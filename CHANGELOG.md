@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.6](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.5...v1.5.6) (2023-10-04)
+
+
+### Changed and fixed
+
+* Added "Media Plaza" as location ([b6d1e0f](https://github.com/Ordina-Group/pythonconferentie.nl/commit/b6d1e0fc79d380f5c07bd6c0500be71f897339cc))
+* Added end date for registration ([5af2c28](https://github.com/Ordina-Group/pythonconferentie.nl/commit/5af2c2808a1571343f6d29a272cbe30462b9264a))
+
 ## [1.5.5](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.4...v1.5.5) (2023-09-27)
 
 
