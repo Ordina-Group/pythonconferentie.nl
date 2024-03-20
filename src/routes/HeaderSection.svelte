@@ -1,8 +1,8 @@
 <script>
-  import Poster from '$lib/components/Poster.svelte';
-  import TagBlock from '$lib/components/TagBlock.svelte';
-  import {Icon} from 'svelte-awesome';
-  import {chevronDown} from 'svelte-awesome/icons';
+	import Poster from '$lib/components/Poster.svelte';
+	// import TagBlock from '$lib/components/TagBlock.svelte';
+	import { Icon } from 'svelte-awesome';
+	import { chevronDown } from 'svelte-awesome/icons';
 </script>
 
 <header class="flex-center relative h-[85vh] w-full bg-shark" id="header">
@@ -19,12 +19,12 @@
 			rel="noreferrer"
 			href="https://www.eventbrite.nl/e/tickets-python-conference-utrecht-715964698687"
 		>
-			<TagBlock class="text-lg" backgroundColor="fountain">
+			<!-- <TagBlock class="text-lg" backgroundColor="fountain">
 				<div class="flex flex-col">
-          <div>tickets.get_yours_for_<span class="font-bold">free</span>()</div>
-          <div class="text-xs italic">Registration ends October 8th 23:59</div>
-        </div>
-			</TagBlock>
+					<div>tickets.get_yours_for_<span class="font-bold">free</span>()</div>
+					<div class="text-xs italic">Registration ends October 8th 23:59</div>
+				</div>
+			</TagBlock> -->
 		</a>
 		<div class="flex-center absolute bottom-0 left-0 w-full">
 			<a class="mb-10 inline" href="#info">

@@ -25,8 +25,8 @@
 <div>
 	<HeaderSection />
 	<InfoSection />
-	<SpeakerScheduleSection />
-	<Spacer />
-	<SpeakerSection />
+	<!-- <SpeakerScheduleSection /> -->
+	<!-- <Spacer /> -->
+	<!-- <SpeakerSection /> -->
 	<PracticalInformationSection />
 </div>
