@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let backgroundColor: 'shark' | 'fountain' | 'ordina' = 'ordina';
+	export let backgroundColor: 'shark' | 'fountain' | 'ordina' | 'soprasteria' = 'ordina';
 	export let direction: 'left' | 'right' | 'both' = 'both';
 	export let extend: boolean = false;
 	export let small: boolean = false;
@@ -26,6 +26,7 @@
 					class:fill-ordina={backgroundColor === 'ordina'}
 					class:fill-shark={backgroundColor === 'shark'}
 					class:fill-fountain={backgroundColor === 'fountain'}
+					class:fill-soprasteria={backgroundColor === 'soprasteria'}
 				/>
 			</g>
 		</svg>
@@ -35,6 +36,7 @@
 			class:bg-ordina={backgroundColor === 'ordina'}
 			class:bg-shark={backgroundColor === 'shark'}
 			class:bg-fountain={backgroundColor === 'fountain'}
+			class:bg-soprasteria={backgroundColor === 'soprasteria'}
 		/>
 	{/if}
 	<div
@@ -48,6 +50,7 @@
 		class:bg-ordina={backgroundColor === 'ordina'}
 		class:bg-shark={backgroundColor === 'shark'}
 		class:bg-fountain={backgroundColor === 'fountain'}
+		class:bg-soprasteria={backgroundColor === 'soprasteria'}
 		class:md:pl-4={direction === 'right' && !small}
 		class:md:pl-1={direction === 'right' && small}
 		class:md:pr-0={direction === 'right'}
@@ -70,6 +73,7 @@
 					class:fill-ordina={backgroundColor === 'ordina'}
 					class:fill-shark={backgroundColor === 'shark'}
 					class:fill-fountain={backgroundColor === 'fountain'}
+					class:fill-soprasteria={backgroundColor === 'soprasteria'}
 				/>
 			</g>
 		</svg>
@@ -79,6 +83,7 @@
 			class:bg-ordina={backgroundColor === 'ordina'}
 			class:bg-shark={backgroundColor === 'shark'}
 			class:bg-fountain={backgroundColor === 'fountain'}
+			class:bg-soprasteria={backgroundColor === 'soprasteria'}
 		/>
 	{/if}
 </div>
