@@ -55,6 +55,16 @@ module.exports = {
 					700: '#C24A00',
 					800: '#8A3500',
 					900: '#521F00'
+				},
+				soprasteria: {
+					DEFAULT: '#89289022',
+					orange: '#FFB15D',
+					red: '#CF022B',
+					purpur: ' #892890 ',
+					darkPurpur: '#4C1F82'
+				},
+				backgroundImage: {
+					'gradient-primary': 'linear-gradient(to right,#4C1F82,#892890,#CF022B ,#FFB15D)'
 				}
 			},
 			fontFamily: {
