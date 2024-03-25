@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.6...v1.6.0) (2024-03-25)
+
+
+### New
+
+* created a code of conduct page ([438aca3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/438aca3795280ddd681d4c6b84dde54ecff88fd7))
+
+
+### Changed and fixed
+
+* commented to used info ([b887179](https://github.com/Ordina-Group/pythonconferentie.nl/commit/b887179103449b8d60bb3ac8d5685b646888d338))
+
 ## [1.5.6](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.5...v1.5.6) (2023-10-04)
 
 
