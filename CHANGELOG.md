@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.6.0...v1.6.1) (2024-03-26)
+
+
+### Changed and fixed
+
+* changed logo ([c892367](https://github.com/Ordina-Group/pythonconferentie.nl/commit/c89236756da6137fa12350077bf1349b0d07e87d))
+
+
+### Miscellaneous
+
+* add ignore file ([91f90f2](https://github.com/Ordina-Group/pythonconferentie.nl/commit/91f90f21d4594efb98416d263520408f667bbedb))
+
 ## [1.6.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.6...v1.6.0) (2024-03-25)
 
 
