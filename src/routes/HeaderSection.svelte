@@ -5,30 +5,33 @@
 	import { chevronDown, chevronRight } from 'svelte-awesome/icons';
 </script>
 
-<header class="flex-center relative h-[85vh] w-full bg-shark" id="header">
+<header class="flex-center relative w-full bg-shark" id="header">
 	<Poster />
-	<div class="relative mt-1 w-full">
+	<div class="relative mt-3 w-full">
 		<div class="absolute left-0 right-0">
-			<div class="flex w-full items-center justify-between px-3">
+			<div class="flex w-full items-center justify-between px-4">
 				<a href="https://pythonconferentie.nl">
 					<img src="/logo-white.png" alt="Python Conference Logo" class="w-20" />
 				</a>
-				<div class="pr-10">
-					<TagBlock backgroundColor="fountain">
-						<a class=" inline text-white" target="_blank" rel="noreferrer" href="/code-of-conduct"
-							>Code of Conduct<Icon class="ml-4" data={chevronRight} scale={1} /></a
-						>
-					</TagBlock>
+				<div class="pr-1">
+					<a class=" inline text-white" target="_blank" rel="noreferrer" href="/code-of-conduct"
+						>Code of Conduct<Icon class="ml-4" data={chevronRight} scale={1} /></a
+					>
 				</div>
 			</div>
 		</div>
 
-		<div class="mt-24 flex items-center justify-center">
-			<!-- <h1 class="block w-6/12 max-w-4xl px-4 py-1"> -->
+		<div class="mt-20 flex items-center justify-center">
 			<a href="https://pythonconferentie.nl" class="w-96">
 				<img src="/logo-sopra2.png" alt="Python Conference Logo" class="" />
 			</a>
-			<!-- </h1> -->
+		</div>
+		<div class="mt-8 flex items-center justify-center">
+			<TagBlock class="text-lg" backgroundColor="fountain">
+				<div class="text-3xl font-bold">
+					PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
+				</div>
+			</TagBlock>
 		</div>
 
 		<!-- <a
