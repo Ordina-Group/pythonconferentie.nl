@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.6.1...v1.7.0) (2024-04-25)
+
+
+### New
+
+* changed colo pallete ([01a99f3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/01a99f34514bc9f93791f7d535fc54cbcc36ec92))
+
 ## [1.6.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.6.0...v1.6.1) (2024-03-26)
 
 
