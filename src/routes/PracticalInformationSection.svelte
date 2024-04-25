@@ -3,25 +3,25 @@
 </script>
 
 <div
-	class="flex-center relative w-full flex-col bg-shark py-10 text-white"
+	class="flex-center relative w-full flex-col bg-north-300 py-10 text-white"
 	id="practical-information"
 >
 	<div class="text-4xl">Practical information</div>
 
-	<TagBlock class="mt-5" direction="right" extend={true} backgroundColor="ordina">
-		<div class="flex w-screen max-w-xl gap-5">
+	<TagBlock class="mt-5" direction="right" extend={true} backgroundColor="north3">
+		<div class="flex w-screen max-w-xl gap-5 text-black">
 			<div class="pl-5 text-2xl sm:pl-0">When:</div>
 			<div class="grow text-2xl">October 10th 2024</div>
 		</div>
 	</TagBlock>
 
-	<TagBlock class="mt-2" direction="left" extend={true} backgroundColor="fountain">
+	<TagBlock class="mt-2" direction="left" extend={true} backgroundColor="north2">
 		<div class="flex w-screen max-w-xl items-center gap-5">
 			<div class="pl-5 text-2xl" />
 			<div class="flex flex-col items-center gap-2 md:flex-row">
 				<a target="_blank" rel="noreferrer" href="https://goo.gl/maps/PM1SP5jn8Z9M3LZa7"
 					><img
-						class=" w-60 rounded-full p-1 ring-2 ring-fountain-300"
+						class=" w-60 rounded-full p-1 ring-2 ring-north-50"
 						src="/map.png"
 						alt="A map showing where the Jaarbeurs Utrecht is located"
 					/></a
@@ -58,6 +58,6 @@
 		rel="noreferrer"
 		href="https://github.com/Ordina-Group/pythonconferentie.nl"
 	>
-		<TagBlock backgroundColor="fountain" small>Source on GitHub</TagBlock>
+		<TagBlock backgroundColor="north3" small>Source on GitHub</TagBlock>
 	</a>
 </div>

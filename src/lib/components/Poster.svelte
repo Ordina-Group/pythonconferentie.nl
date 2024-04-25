@@ -8,8 +8,8 @@
 	const SPEED = [50, 70];
 
 	export let animated: boolean = false;
-	export let colors: string[] = ['#1A1D1F', '#61BFC3', '#61BFC3', '#E6E2DB', '#FF8133', '#FF8133'];
-	// export let colors: string[] = ['#6222b333;', '#89289033', '#cf022b33', '#ffb15d33'];
+	// export let colors: string[] = ['#1A1D1F', '#61BFC3', '#61BFC3', '#E6E2DB', '#FF8133', '#FF8133'];
+	export let colors: string[] = ['#b1cac5', 'adaeae', 'bfe4dd', '#E6E2DB', '#E6E2DB', '#759ab8'];
 	// export let colors: string[] = [
 	// 	'#4C1F8233',
 	// 	'#4C1F8233',

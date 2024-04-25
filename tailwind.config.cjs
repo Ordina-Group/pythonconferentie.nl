@@ -56,6 +56,19 @@ module.exports = {
 					800: '#8A3500',
 					900: '#521F00'
 				},
+				north: {
+					DEFAULT: '#1c325b',
+					50: '#b1cac5',
+					100: '#99d7cd',
+					200: '#2b6797',
+					300: '#1c325b'
+				},
+				north2: {
+					DEFAULT: '#2b6797'
+				},
+				north3: {
+					DEFAULT: '#b1cac5'
+				},
 				soprasteria: {
 					DEFAULT: '#89289022',
 					orange: '#FFB15D',

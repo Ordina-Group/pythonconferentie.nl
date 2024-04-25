@@ -11,10 +11,10 @@
 		<div class="absolute left-0 right-0">
 			<div class="flex w-full items-center justify-between px-4">
 				<a href="https://pythonconferentie.nl">
-					<img src="/logo-white.png" alt="Python Conference Logo" class="w-20" />
+					<img src="/logo-black.png" alt="Python Conference Logo" class="w-20" />
 				</a>
 				<div class="pr-1">
-					<a class=" inline text-white" target="_blank" rel="noreferrer" href="/code-of-conduct"
+					<a class=" inline text-black" target="_blank" rel="noreferrer" href="/code-of-conduct"
 						>Code of Conduct<Icon class="ml-4" data={chevronRight} scale={1} /></a
 					>
 				</div>
@@ -27,7 +27,7 @@
 			</a>
 		</div>
 		<div class="mt-8 flex items-center justify-center">
-			<TagBlock class="text-lg" backgroundColor="fountain">
+			<TagBlock class="text-lg" backgroundColor="north">
 				<div class="text-3xl font-bold">
 					PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
 				</div>

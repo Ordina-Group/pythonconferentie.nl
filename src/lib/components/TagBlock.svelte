@@ -1,5 +1,12 @@
 <script lang="ts">
-	export let backgroundColor: 'shark' | 'fountain' | 'ordina' | 'soprasteria' = 'ordina';
+	export let backgroundColor:
+		| 'shark'
+		| 'fountain'
+		| 'ordina'
+		| 'soprasteria'
+		| 'north'
+		| 'north2'
+		| 'north3' = 'ordina';
 	export let direction: 'left' | 'right' | 'both' = 'both';
 	export let extend: boolean = false;
 	export let small: boolean = false;
@@ -9,7 +16,7 @@
 </script>
 
 <div
-	class="relative inline-flex {componentClass} {backgroundColor === 'ordina'
+	class="relative inline-flex {componentClass} {backgroundColor === 'north3'
 		? 'text-shark'
 		: 'text-white'}"
 >
@@ -27,6 +34,9 @@
 					class:fill-shark={backgroundColor === 'shark'}
 					class:fill-fountain={backgroundColor === 'fountain'}
 					class:fill-soprasteria={backgroundColor === 'soprasteria'}
+					class:fill-north={backgroundColor === 'north'}
+					class:fill-north2={backgroundColor === 'north2'}
+					class:fill-north3={backgroundColor === 'north3'}
 				/>
 			</g>
 		</svg>
@@ -37,6 +47,9 @@
 			class:bg-shark={backgroundColor === 'shark'}
 			class:bg-fountain={backgroundColor === 'fountain'}
 			class:bg-soprasteria={backgroundColor === 'soprasteria'}
+			class:bg-north={backgroundColor === 'north'}
+			class:bg-north2={backgroundColor === 'north2'}
+			class:bg-north3={backgroundColor === 'north3'}
 		/>
 	{/if}
 	<div
@@ -51,6 +64,9 @@
 		class:bg-shark={backgroundColor === 'shark'}
 		class:bg-fountain={backgroundColor === 'fountain'}
 		class:bg-soprasteria={backgroundColor === 'soprasteria'}
+		class:bg-north={backgroundColor === 'north'}
+		class:bg-north2={backgroundColor === 'north2'}
+		class:bg-north3={backgroundColor === 'north3'}
 		class:md:pl-4={direction === 'right' && !small}
 		class:md:pl-1={direction === 'right' && small}
 		class:md:pr-0={direction === 'right'}
@@ -74,6 +90,9 @@
 					class:fill-shark={backgroundColor === 'shark'}
 					class:fill-fountain={backgroundColor === 'fountain'}
 					class:fill-soprasteria={backgroundColor === 'soprasteria'}
+					class:fill-north={backgroundColor === 'north'}
+					class:fill-north2={backgroundColor === 'north2'}
+					class:fill-north3={backgroundColor === 'north3'}
 				/>
 			</g>
 		</svg>
@@ -84,6 +103,9 @@
 			class:bg-shark={backgroundColor === 'shark'}
 			class:bg-fountain={backgroundColor === 'fountain'}
 			class:bg-soprasteria={backgroundColor === 'soprasteria'}
+			class:bg-north={backgroundColor === 'north'}
+			class:bg-north2={backgroundColor === 'north2'}
+			class:bg-north3={backgroundColor === 'north3'}
 		/>
 	{/if}
 </div>
