@@ -50,5 +50,5 @@ jobs:
         with:
           app-name: 'pythoneersconference'
           slot-name: 'Production'
-          package: ./build
+          package: .
 #        if: ${{ steps.release.outputs.release_created }}
