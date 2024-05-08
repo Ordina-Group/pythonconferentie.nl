@@ -1,0 +1,25 @@
+{
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "New",
+      "hidden": false
+    },
+    {
+      "type": "fix",
+      "section": "Changed and fixed",
+      "hidden": false
+    },
+    {
+      "type": "chore",
+      "section": "Miscellaneous",
+      "hidden": false
+    }
+  ],
+  "packages": {
+    ".": {
+      "release-type": "node",
+      "package-name": "pythonconference"
+    }
+  }
+}
