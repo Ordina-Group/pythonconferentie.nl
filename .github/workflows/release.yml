@@ -17,24 +17,24 @@ jobs:
     permissions:
       id-token: write #This is required for requesting the JWT
     steps:
-      - uses: google-github-actions/release-please-action@v4
-        id: release
+#      - uses: google-github-actions/release-please-action@v4
+#        id: release
 
       - uses: actions/checkout@v2
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: Set up Node.js version
         uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
           cache: 'npm'
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: npm install, build, and test
         run: |
           npm install
           npm run build --if-present
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: Login to Azure
         uses: azure/login@v1
@@ -42,7 +42,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_CC08D4C8EF264A09887268BBA5875EE7 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E226939A58AB47288BD880E719736D28 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_66C811B5213F45AD908B4A13F745ABB7 }}
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -51,4 +51,4 @@ jobs:
           app-name: 'pythoneersconference'
           slot-name: 'Production'
           package: ./build
-        if: ${{ steps.release.outputs.release_created }}
+#        if: ${{ steps.release.outputs.release_created }}
