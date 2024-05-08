@@ -12,8 +12,10 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     environment:
-      name: 'production'
+      name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -28,7 +30,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
-          node-version: '18.x'
+          node-version: '20.x'
         if: ${{ steps.release.outputs.release_created }}
 
       - name: npm install, build, and test
@@ -37,12 +39,18 @@ jobs:
           npm run build --if-present
         if: ${{ steps.release.outputs.release_created }}
 
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_CC08D4C8EF264A09887268BBA5875EE7 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E226939A58AB47288BD880E719736D28 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_66C811B5213F45AD908B4A13F745ABB7 }}
+
+
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'PythonConference'
-          slot-name: 'production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4E1202AD63FF43729109C7F4E9C1F6B0 }}
-          package: .
-        if: ${{ steps.release.outputs.release_created }}
+          app-name: 'pythoneersconference'
+          slot-name: 'Production'
+          package: ./build
