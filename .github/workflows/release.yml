@@ -28,7 +28,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Set up Node.js version
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: '20.x'
         if: ${{ steps.release.outputs.release_created }}
