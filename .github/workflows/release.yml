@@ -37,7 +37,7 @@ jobs:
 #        if: ${{ steps.release.outputs.release_created }}
 
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_CC08D4C8EF264A09887268BBA5875EE7 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E226939A58AB47288BD880E719736D28 }}
