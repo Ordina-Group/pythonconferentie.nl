@@ -30,5 +30,8 @@
 		"vite": "^4.1.4"
 	},
 	"type": "module",
-	"packageManager": "yarn@3.3.0"
+	"packageManager": "yarn@3.3.0",
+	"dependencies": {
+		"svelte-fast-marquee": "^0.7.0"
+	}
 }

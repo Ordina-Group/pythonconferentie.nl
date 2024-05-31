@@ -3,6 +3,7 @@
 	import TagBlock from '$lib/components/TagBlock.svelte';
 	import { Icon } from 'svelte-awesome';
 	import { chevronDown, chevronRight } from 'svelte-awesome/icons';
+	import Countdown from './Countdown.svelte';
 </script>
 
 <header class="flex-center relative w-full bg-shark" id="header">
@@ -11,9 +12,12 @@
 		<div class="absolute left-0 right-0">
 			<div class="flex w-full items-center justify-between px-4">
 				<a href="https://pythonconferentie.nl">
-					<img src="/logo-black.png" alt="Python Conference Logo" class="w-20" />
+					<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="w-20" />
 				</a>
 				<div class="pr-1">
+					<a class="inline text-black" rel="noreferrer" href="/history"
+						>History<Icon class="ml-4" data={chevronRight} scale={1} /></a
+					>
 					<a class=" inline text-black" target="_blank" rel="noreferrer" href="/code-of-conduct"
 						>Code of Conduct<Icon class="ml-4" data={chevronRight} scale={1} /></a
 					>
@@ -21,11 +25,27 @@
 			</div>
 		</div>
 
-		<div class="mt-20 flex items-center justify-center">
-			<a href="https://pythonconferentie.nl" class="w-96">
-				<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="" />
-			</a>
+		<div class="mt-8 flex items-center justify-center">
+			<div class="inline-flex text-lg text-white">
+					<div class="text-xl">
+						<span class="pr-4 text-ordina font-bold">Save the date 10-10-2024</span>
+
+						<Countdown></Countdown>
+					</div>
+							
+			</div>
+			<div>
+				<a href="https://pythonconferentie.nl" class="w-96">
+					<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="" />
+				</a>
+			</div>
+			<div class="inline-flex text-lg text-white">
+				<div class="text-xl">
+					<span class="pr-4 text-ordina font-bold">Tickets will be available soon!</span>
+				</div>
+			</div>
 		</div>
+
 		<div class="mt-8 flex items-center justify-center">
 			<TagBlock class="text-lg" backgroundColor="north">
 				<div class="text-3xl font-bold">
@@ -47,6 +67,7 @@
 				</div>
 			    </TagBlock>
 				</a> -->
+				
 		<div class="mt-14 flex justify-center">
 			<a class="mb-10 inline" href="#info">
 				<Icon class="text-white opacity-75" data={chevronDown} scale={3} />
