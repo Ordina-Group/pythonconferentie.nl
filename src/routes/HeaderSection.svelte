@@ -54,6 +54,21 @@
 			</TagBlock>
 		</div>
 
+		<div class="mt-4 flex items-center justify-center">
+			<a
+						class="inline"
+						target="_blank"
+						rel="noreferrer"
+						href="https://forms.gle/yVnUzH4NFvcLwwi7A"
+					>
+						<TagBlock class="text-lg" backgroundColor="fountain">
+							<div class="flex flex-col">
+								<div>Call For Papers</div>
+							</div>
+						</TagBlock>
+					</a>
+		</div>
+
 		<!-- <a
 					class="inline"
 					target="_blank"
@@ -68,7 +83,7 @@
 			    </TagBlock>
 				</a> -->
 				
-		<div class="mt-14 flex justify-center">
+		<div class="mt-10 flex justify-center">
 			<a class="mb-10 inline" href="#info">
 				<Icon class="text-white opacity-75" data={chevronDown} scale={3} />
 			</a>
