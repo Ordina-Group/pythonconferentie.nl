@@ -25,28 +25,34 @@
 			</div>
 		</div>
 
-		<div class="mt-8 flex items-center justify-center">
-			<div class="inline-flex text-lg text-white">
-					<div class="text-xl">
-						<span class="pr-4 text-ordina font-bold">Save the date 10-10-2024</span>
-
-						<Countdown></Countdown>
+    <div class="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center justify-center">
+      <div class="order-2 md:order-1">
+				<TagBlock direction="right" extend={true} backgroundColor="north3">
+					<div class="inline-flex text-lg text-white">
+						<div class="text-xl">
+							<span class="pr-4 text-ordina font-bold">Save the date 10-10-2024</span>
+							<Countdown></Countdown>
+						</div>
 					</div>
-							
+				</TagBlock>
 			</div>
-			<div>
+      <div class="order-1 md:order-2">				
 				<a href="https://pythonconferentie.nl" class="w-96">
 					<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="" />
 				</a>
 			</div>
-			<div class="inline-flex text-lg text-white">
-				<div class="text-xl">
-					<span class="pr-4 text-ordina font-bold">Tickets will be available soon!</span>
-				</div>
+      <div class="order-3 md:order-3">
+				<TagBlock direction="left" extend={true} backgroundColor="north2">
+					<div class="inline-flex text-lg text-white">
+						<div class="text-xl">
+							<span class="pr-4 text-ordina font-bold">Tickets will be available soon!</span>
+						</div>
+					</div>
+				</TagBlock>
 			</div>
-		</div>
+    </div>
 
-		<div class="mt-8 flex items-center justify-center">
+		<div class="mt-4 flex items-center justify-center">
 			<TagBlock class="text-lg" backgroundColor="north">
 				<div class="text-3xl font-bold">
 					PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
@@ -83,7 +89,7 @@
 			    </TagBlock>
 				</a> -->
 				
-		<div class="mt-10 flex justify-center">
+		<div class="mt-2 flex justify-center">
 			<a class="mb-10 inline" href="#info">
 				<Icon class="text-white opacity-75" data={chevronDown} scale={3} />
 			</a>
