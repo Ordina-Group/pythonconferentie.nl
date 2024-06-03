@@ -19,7 +19,7 @@
 		"lodash-es": "^4.17.21",
 		"postcss": "^8.4.21",
 		"prettier": "^2.8.4",
-		"prettier-plugin-svelte": "^2.9.0",
+		"prettier-plugin-svelte": "^3.2.3",
 		"prettier-plugin-tailwindcss": "^0.2.4",
 		"svelte": "^3.55.1",
 		"svelte-awesome": "^3.0.1",
