@@ -69,7 +69,7 @@
 					>
 						<TagBlock class="text-lg" backgroundColor="fountain">
 							<div class="flex flex-col">
-								<div>Call For Papers</div>
+								<div>Call For Papers (closing 31-07-2024)</div>
 							</div>
 						</TagBlock>
 					</a>
