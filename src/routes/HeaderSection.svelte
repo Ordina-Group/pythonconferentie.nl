@@ -4,6 +4,7 @@
 	import { Icon } from 'svelte-awesome';
 	import { chevronDown, chevronRight } from 'svelte-awesome/icons';
 	import Countdown from './Countdown.svelte';
+	import { divide } from 'lodash-es';
 </script>
 
 <header class="flex-center relative w-full bg-shark" id="header">
@@ -44,20 +45,23 @@
       <div class="order-3 md:order-3">
 				<TagBlock direction="left" extend={true} backgroundColor="north2">
 					<div class="inline-flex text-lg text-white">
-						<div class="text-xl">
-							<span class="pr-4 text-ordina font-bold">Tickets will be available soon!</span>
-						</div>
+						<a href="https://www.eventbrite.nl/e/tickets-pycon-nl-916084723067?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" class="hover:scale-105 text-xl">
+							<span class="pr-4 text-ordina font-bold">Get your ticket now!</span>
+						</a>
 					</div>
 				</TagBlock>
 			</div>
     </div>
 
 		<div class="mt-4 flex items-center justify-center">
-			<TagBlock class="text-lg" backgroundColor="north">
-				<div class="text-3xl font-bold">
-					PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
-				</div>
-			</TagBlock>
+			<a 
+				href="https://www.eventbrite.nl/e/tickets-pycon-nl-916084723067?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl">
+				<TagBlock class="text-lg" backgroundColor="north">
+					<div class="hover:scale-105 text-3xl font-bold">
+						PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
+					</div>
+				</TagBlock>
+			</a>
 		</div>
 
 		<div class="mt-4 flex items-center justify-center">
@@ -68,7 +72,7 @@
 						href="https://forms.gle/yVnUzH4NFvcLwwi7A"
 					>
 						<TagBlock class="text-lg" backgroundColor="fountain">
-							<div class="flex flex-col">
+							<div class="hover:scale-105 flex flex-col">
 								<div>Call For Papers (closing 31-07-2024)</div>
 							</div>
 						</TagBlock>
