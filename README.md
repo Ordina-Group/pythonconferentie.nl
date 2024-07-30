@@ -1,4 +1,6 @@
-![Frontend Festival Logo](./static/marketing/socials.png)
+<p align="center">
+  <img alt="PythonConferentie.nl logo" src="./static/marketing/socials.png">
+</p>
 
 # PythonConferentie.nl
 
