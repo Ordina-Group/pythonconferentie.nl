@@ -1,3 +1,5 @@
+![Frontend Festival Logo](./static/marketing/socials.png)
+
 # PythonConferentie.nl
 
 Here's the code of the website [pythonconferentie.nl](https://pythonconferentie.nl/).

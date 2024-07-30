@@ -1,8 +1,8 @@
 <script lang="ts">
-  import TagBlock from '$lib/components/TagBlock.svelte';
-  import {fade} from 'svelte/transition';
+	import TagBlock from '$lib/components/TagBlock.svelte';
+	import { fade } from 'svelte/transition';
 
-  type Speaker = {
+	type Speaker = {
 		name: string;
 		letters: string;
 		title: string;
@@ -26,15 +26,15 @@
 			title: 'Principal Consultant',
 			employer: 'Ordina',
 			image: '/speakers/jhb.png',
-			bio: 'Jan-Hein is a software engineer who witnessed Python’s first baby steps up very close, and loves programming in Python since then. While he worked in different software development roles, he always kept an eye on its development. After he has founded a dedicated Python software unit within Ordina, the company he works for, he’s now back at the work that leaves him with a positive energy balance at the end of the day: programming in Python!',
+			bio: 'Jan-Hein is a software engineer who witnessed Python’s first baby steps up very close, and loves programming in Python since then. While he worked in different software development roles, he always kept an eye on its development. After he has founded a dedicated Python software unit within Ordina, the company he works for, he’s now back at the work that leaves him with a positive energy balance at the end of the day: programming in Python!'
 		},
 		{
 			name: 'Marc-André Lemburg',
 			letters: 'ML',
 			title: 'CEO',
 			employer: 'eGenix.com',
-      image: '/speakers/ml.png',
-      bio: 'Marc-Andre is the CEO and founder of eGenix.com, a Python-focused project and consulting company based in Germany, specializing in the data, finance and database space. He has a degree in mathematics from the University of Düsseldorf.\n\nHis work with and for Python started in 1994. He is a Python Core Developer, designed and implemented the Unicode support in Python, and author of several open source libraries and tools (e.g. the mx Extensions mxDateTime and mxODBC).\n\nMarc-Andre is a EuroPython Society (EPS) Fellow, a Python Software Foundation (PSF) founding Fellow and co-founded a local Python meeting in Düsseldorf (PyDDF). He served on the board of the PSF and EPS for many years and loves to contribute to the growth of Python wherever he can.',
+			image: '/speakers/ml.png',
+			bio: 'Marc-Andre is the CEO and founder of eGenix.com, a Python-focused project and consulting company based in Germany, specializing in the data, finance and database space. He has a degree in mathematics from the University of Düsseldorf.\n\nHis work with and for Python started in 1994. He is a Python Core Developer, designed and implemented the Unicode support in Python, and author of several open source libraries and tools (e.g. the mx Extensions mxDateTime and mxODBC).\n\nMarc-Andre is a EuroPython Society (EPS) Fellow, a Python Software Foundation (PSF) founding Fellow and co-founded a local Python meeting in Düsseldorf (PyDDF). He served on the board of the PSF and EPS for many years and loves to contribute to the growth of Python wherever he can.'
 		},
 		{
 			name: 'Laís Carvalho',

@@ -2,101 +2,87 @@
 
 ## [1.7.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.6.1...v1.7.0) (2024-04-25)
 
-
 ### New
 
-* changed colo pallete ([01a99f3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/01a99f34514bc9f93791f7d535fc54cbcc36ec92))
+- changed colo pallete ([01a99f3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/01a99f34514bc9f93791f7d535fc54cbcc36ec92))
 
 ## [1.6.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.6.0...v1.6.1) (2024-03-26)
 
-
 ### Changed and fixed
 
-* changed logo ([c892367](https://github.com/Ordina-Group/pythonconferentie.nl/commit/c89236756da6137fa12350077bf1349b0d07e87d))
-
+- changed logo ([c892367](https://github.com/Ordina-Group/pythonconferentie.nl/commit/c89236756da6137fa12350077bf1349b0d07e87d))
 
 ### Miscellaneous
 
-* add ignore file ([91f90f2](https://github.com/Ordina-Group/pythonconferentie.nl/commit/91f90f21d4594efb98416d263520408f667bbedb))
+- add ignore file ([91f90f2](https://github.com/Ordina-Group/pythonconferentie.nl/commit/91f90f21d4594efb98416d263520408f667bbedb))
 
 ## [1.6.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.6...v1.6.0) (2024-03-25)
 
-
 ### New
 
-* created a code of conduct page ([438aca3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/438aca3795280ddd681d4c6b84dde54ecff88fd7))
-
+- created a code of conduct page ([438aca3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/438aca3795280ddd681d4c6b84dde54ecff88fd7))
 
 ### Changed and fixed
 
-* commented to used info ([b887179](https://github.com/Ordina-Group/pythonconferentie.nl/commit/b887179103449b8d60bb3ac8d5685b646888d338))
+- commented to used info ([b887179](https://github.com/Ordina-Group/pythonconferentie.nl/commit/b887179103449b8d60bb3ac8d5685b646888d338))
 
 ## [1.5.6](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.5...v1.5.6) (2023-10-04)
 
-
 ### Changed and fixed
 
-* Added "Media Plaza" as location ([b6d1e0f](https://github.com/Ordina-Group/pythonconferentie.nl/commit/b6d1e0fc79d380f5c07bd6c0500be71f897339cc))
-* Added end date for registration ([5af2c28](https://github.com/Ordina-Group/pythonconferentie.nl/commit/5af2c2808a1571343f6d29a272cbe30462b9264a))
+- Added "Media Plaza" as location ([b6d1e0f](https://github.com/Ordina-Group/pythonconferentie.nl/commit/b6d1e0fc79d380f5c07bd6c0500be71f897339cc))
+- Added end date for registration ([5af2c28](https://github.com/Ordina-Group/pythonconferentie.nl/commit/5af2c2808a1571343f6d29a272cbe30462b9264a))
 
 ## [1.5.5](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.4...v1.5.5) (2023-09-27)
 
-
 ### Changed and fixed
 
-* Changed title of Laís' talk ([7670d6d](https://github.com/Ordina-Group/pythonconferentie.nl/commit/7670d6dcbc5527f994ed702b44a18b6c3148169c))
+- Changed title of Laís' talk ([7670d6d](https://github.com/Ordina-Group/pythonconferentie.nl/commit/7670d6dcbc5527f994ed702b44a18b6c3148169c))
 
 ## [1.5.4](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.3...v1.5.4) (2023-09-18)
 
-
 ### Changed and fixed
 
-* Remove header animation, as it is epilepsy inducing. ([029f2c8](https://github.com/Ordina-Group/pythonconferentie.nl/commit/029f2c8bb3e9ba25040a50c2a4fad6fa224cb8e9))
+- Remove header animation, as it is epilepsy inducing. ([029f2c8](https://github.com/Ordina-Group/pythonconferentie.nl/commit/029f2c8bb3e9ba25040a50c2a4fad6fa224cb8e9))
 
 ## [1.5.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.2...v1.5.3) (2023-09-14)
 
-
 ### Changed and fixed
 
-* Text style changes based on feedback ([3d80008](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3d80008ea5c6b8d77452c92acdb50bad5f82ab20))
+- Text style changes based on feedback ([3d80008](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3d80008ea5c6b8d77452c92acdb50bad5f82ab20))
 
 ## [1.5.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.1...v1.5.2) (2023-09-14)
 
-
 ### Changed and fixed
 
-* Added speaker info for Marc-André Lemburg ([3a56738](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3a56738acbbb102d6247fdcbc3d14c0bbbff2272))
-* Talk titles now on top ([641989e](https://github.com/Ordina-Group/pythonconferentie.nl/commit/641989e8d7c9567f8ae32d56b22ae6add869b225))
+- Added speaker info for Marc-André Lemburg ([3a56738](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3a56738acbbb102d6247fdcbc3d14c0bbbff2272))
+- Talk titles now on top ([641989e](https://github.com/Ordina-Group/pythonconferentie.nl/commit/641989e8d7c9567f8ae32d56b22ae6add869b225))
 
 ## [1.5.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.5.0...v1.5.1) (2023-09-13)
 
-
 ### Changed and fixed
 
-* Changed employer of Jodie Burchell ([cd8f446](https://github.com/Ordina-Group/pythonconferentie.nl/commit/cd8f446071e248b482c69493098d04a1a6f7fc4b))
+- Changed employer of Jodie Burchell ([cd8f446](https://github.com/Ordina-Group/pythonconferentie.nl/commit/cd8f446071e248b482c69493098d04a1a6f7fc4b))
 
 ## [1.5.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.4.0...v1.5.0) (2023-09-13)
 
-
 ### New
 
-* Added speaker info for Jan-Hein Bührman ([8c7c258](https://github.com/Ordina-Group/pythonconferentie.nl/commit/8c7c2584c3fd96564df0ffcc2565187d8873ed21))
+- Added speaker info for Jan-Hein Bührman ([8c7c258](https://github.com/Ordina-Group/pythonconferentie.nl/commit/8c7c2584c3fd96564df0ffcc2565187d8873ed21))
 
 ## [1.4.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.3...v1.4.0) (2023-09-13)
 
-
 ### New
 
-* Add Jodie Burchell speaker info ([f0eeabf](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f0eeabfbed9ec587b4ea5a4e5ed0726a6e909b2a))
-* Added Laís' talk to the schedule ([9a85aa9](https://github.com/Ordina-Group/pythonconferentie.nl/commit/9a85aa9f39bcd6e1f60da01eedcc12ba0c4a968e))
-* Added speaker info for Laís Carvalho ([3b3195a](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3b3195a54866e46508d589790b0e26ce184cbedf))
-* Added speaker info for Sebastiaan Zeeff ([02b966e](https://github.com/Ordina-Group/pythonconferentie.nl/commit/02b966e0ab1b7e3b6a23a948522f63b970fee503))
-* New speaker section design ([a08d3c0](https://github.com/Ordina-Group/pythonconferentie.nl/commit/a08d3c066505230a1ffc9dcf56c1a3eda836b550))
-
+- Add Jodie Burchell speaker info ([f0eeabf](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f0eeabfbed9ec587b4ea5a4e5ed0726a6e909b2a))
+- Added Laís' talk to the schedule ([9a85aa9](https://github.com/Ordina-Group/pythonconferentie.nl/commit/9a85aa9f39bcd6e1f60da01eedcc12ba0c4a968e))
+- Added speaker info for Laís Carvalho ([3b3195a](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3b3195a54866e46508d589790b0e26ce184cbedf))
+- Added speaker info for Sebastiaan Zeeff ([02b966e](https://github.com/Ordina-Group/pythonconferentie.nl/commit/02b966e0ab1b7e3b6a23a948522f63b970fee503))
+- New speaker section design ([a08d3c0](https://github.com/Ordina-Group/pythonconferentie.nl/commit/a08d3c066505230a1ffc9dcf56c1a3eda836b550))
 
 ### Changed and fixed
 
-* Makes mt photo more data-friendly ([f06ac51](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f06ac51de8eabcd41728f45d3acf7594aaa888a3))
+- Makes mt photo more data-friendly ([f06ac51](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f06ac51de8eabcd41728f45d3acf7594aaa888a3))
 
 ## [1.3.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.3.2...v1.3.3) (2023-09-08)
 
