@@ -1,6 +1,4 @@
-<p align="center">
-  <img alt="PythonConferentie.nl logo" src="./static/marketing/socials.png">
-</p>
+<img align="right" alt="PythonConferentie.nl logo" src="./static/marketing/socials.png">
 
 # PythonConferentie.nl
 
