@@ -4,13 +4,12 @@ Here's the code of the website [pythonconferentie.nl](https://pythonconferentie.
 
 ## Tech stack
 
-- [Svelte](https://svelte.dev/)
-- [SvelteKit](https://kit.svelte.dev/) (SSR, overkill I know 😅)
+- [SvelteKit](https://kit.svelte.dev/) & [Svelte](https://svelte.dev/)
+  - Using the [SvelteKit Static Adapter](https://kit.svelte.dev/docs/adapter-static).
 - [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/) (There's not much script though)
+- [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-- Hosted on [Azure Web Apps](https://azure.microsoft.com/en-us/services/app-service/web/)
-- [Yarn](https://yarnpkg.com/) zero installs
+- Hosted on [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static)
 - [Prettier](https://prettier.io/) for code formatting
 
 ## Running
@@ -22,14 +21,6 @@ npm i
 npm run dev
 ```
 
-## Azure notes
-
-Make sure startup script is the following in azure:
-
-```bash
-pm2 start ecosystem.config.cjs --no-daemon
-```
-
 ### Releasing
 
-Releasing is as simple as pushing to main and merging the PR created by release-please after.
+Releasing is as simple as pushing/merging to main and merging the PR created by release-please after.
