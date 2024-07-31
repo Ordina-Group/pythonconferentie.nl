@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.8.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.7.0...pythonconferentie.nl-v1.8.0) (2024-07-31)
+
+
+### New
+
+* Site will now statically render ([82b8fdc](https://github.com/Ordina-Group/pythonconferentie.nl/commit/82b8fdce3e889a0dd009caba6b3bf995fe7199d8))
+
+
+### Changed and/or fixed
+
+* Preparations for statically rendered website ([e99d79d](https://github.com/Ordina-Group/pythonconferentie.nl/commit/e99d79dc0ecbb709ea3a7c1d0d8fd0f4ad9baf2f))
+* Removed outdated logo ([e8a3618](https://github.com/Ordina-Group/pythonconferentie.nl/commit/e8a3618dc99d23ba4a1f095beef165fc1ff332c1))
+
+
+### Miscellaneous
+
+* Aligned the image in readme to the right to save space ([e8641ab](https://github.com/Ordina-Group/pythonconferentie.nl/commit/e8641ab7989a44a7b8d13835299fe2077025da6c))
+* Centered the image in readme ([8f1c64f](https://github.com/Ordina-Group/pythonconferentie.nl/commit/8f1c64feb1de5550ebc24dffb1e7cefaae8d93d1))
+* Made image in readme 50% smaller ([85ff707](https://github.com/Ordina-Group/pythonconferentie.nl/commit/85ff70796b75e3790c0e91efbe30159657a321f4))
+* migration to Svelte 4 ([4046201](https://github.com/Ordina-Group/pythonconferentie.nl/commit/40462018e66c96ec64b5817b480df0496dba7aab))
+* migration to SvelteKit 2 ([43db099](https://github.com/Ordina-Group/pythonconferentie.nl/commit/43db099f797d158d80e55da4136e24ac1b2cc02c))
+* Removed empty script ([6d1507d](https://github.com/Ordina-Group/pythonconferentie.nl/commit/6d1507d56ab3676f9b22e2186a0169991aa53d66))
+* Update readme ([7e9baf9](https://github.com/Ordina-Group/pythonconferentie.nl/commit/7e9baf9400dca5d3f55603493fcc26fafda2d877))
+* Upgrade other dependencies ([8312a93](https://github.com/Ordina-Group/pythonconferentie.nl/commit/8312a93222cc8e7bd9bf8de4952cdf07003f9401))
+
 ## [1.7.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/v1.6.1...v1.7.0) (2024-04-25)
 
 ### New
