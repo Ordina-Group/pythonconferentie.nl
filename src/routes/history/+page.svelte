@@ -1,9 +1,9 @@
 <script lang="ts">
-    	import { Icon } from 'svelte-awesome';
-        import { chevronRight } from 'svelte-awesome/icons';
-        import Poster from '$lib/components/Poster.svelte';
-        import TagBlock from '$lib/components/TagBlock.svelte';
-        import Marquee from "svelte-fast-marquee";
+  import { Icon } from 'svelte-awesome';
+  import { chevronRight } from 'svelte-awesome/icons';
+  import Poster from '$lib/components/Poster.svelte';
+  import TagBlock from '$lib/components/TagBlock.svelte';
+  import Marquee from "svelte-fast-marquee";
 	import TopNavSection from '../TopNavSection.svelte';
 	import PracticalInformationSection from '../PracticalInformationSection.svelte';
 </script>
@@ -31,6 +31,3 @@
     </div>
     <PracticalInformationSection></PracticalInformationSection>
 </div>
-
-
-
