@@ -2,29 +2,16 @@
 	import Poster from '$lib/components/Poster.svelte';
 	import TagBlock from '$lib/components/TagBlock.svelte';
 	import { Icon } from 'svelte-awesome';
-	import { chevronDown, chevronRight } from 'svelte-awesome/icons';
+	import { chevronDown } from 'svelte-awesome/icons';
 	import Countdown from './Countdown.svelte';
 	import { divide } from 'lodash-es';
+	import TopNavSection from './TopNavSection.svelte';
 </script>
 
 <header class="flex-center relative w-full bg-shark" id="header">
 	<Poster />
 	<div class="relative mt-3 w-full">
-		<div class="absolute left-0 right-0">
-			<div class="flex w-full items-center justify-between px-4">
-				<a href="https://pythonconferentie.nl">
-					<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="w-20" />
-				</a>
-				<div class="pr-1">
-					<a class="inline text-black" rel="noreferrer" href="/history"
-						>History<Icon class="ml-4" data={chevronRight} scale={1} /></a
-					>
-					<a class=" inline text-black" target="_blank" rel="noreferrer" href="/code-of-conduct"
-						>Code of Conduct<Icon class="ml-4" data={chevronRight} scale={1} /></a
-					>
-				</div>
-			</div>
-		</div>
+		<TopNavSection></TopNavSection>
 
 		<div
 			class="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center justify-center"
@@ -65,16 +52,6 @@
 				<TagBlock class="text-lg" backgroundColor="north">
 					<div class="hover:scale-105 text-3xl font-bold">
 						PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
-					</div>
-				</TagBlock>
-			</a>
-		</div>
-
-		<div class="mt-4 flex items-center justify-center">
-			<a class="inline" target="_blank" rel="noreferrer" href="https://forms.gle/yVnUzH4NFvcLwwi7A">
-				<TagBlock class="text-lg" backgroundColor="fountain">
-					<div class="hover:scale-105 flex flex-col">
-						<div>Call For Papers (closing 31-07-2024)</div>
 					</div>
 				</TagBlock>
 			</a>
