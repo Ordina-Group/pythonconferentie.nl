@@ -1,5 +1,5 @@
 <script>
-  import TagBlock from '$lib/components/TagBlock.svelte';
+	import TagBlock from '$lib/components/TagBlock.svelte';
 </script>
 
 <div class="flex-center w-full flex-col bg-shark py-10 text-white" id="schedule">

@@ -58,43 +58,35 @@
 </script>
 
 <div class="flex items-start w-full gap-2 count-down-main">
-  <div class="timer w-10">
-  <div
-  class="bg-north rounded-lg overflow-hidden">
-  <h3
-    class="countdown-element days font-Cormorant font-semibold text-white text-center">
-  </h3>
-  </div>
-  <p class="text-sm font-Cormorant font-medium text-gray-900 mt-1 text-center w-full">days</p>
-  </div>
-  <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
-  <div class="timer w-10">
-  <div
-  class="bg-north rounded-lg overflow-hidden">
-  <h3
-    class="countdown-element hours font-Cormorant font-semibold text-white text-center">
-  </h3>
-  </div>
-  <p class="text-sm font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">hours</p>
-  </div>
-  <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
-  <div class="timer w-10">
-  <div
-  class="bg-north rounded-lg overflow-hidden">
-  <h3
-    class="countdown-element minutes font-Cormorant font-semibold text-white text-center">
-  </h3>
-  </div>
-  <p class="text-sm font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">minutes</p>
-  </div>
-  <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
-  <div class="timer w-10">
-  <div
-  class="bg-north rounded-lg overflow-hidden ">
-  <h3
-    class="countdown-element seconds font-Cormorant font-semibold text-white text-center animate-countinsecond">
-  </h3>
-  </div>
-  <p class="text-sm font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">seconds</p>
-  </div>
-  </div>
+	<div class="timer w-10">
+		<div class="bg-north rounded-lg overflow-hidden">
+			<h3 class="countdown-element days font-Cormorant font-semibold text-white text-center"></h3>
+		</div>
+		<p class="text-sm font-Cormorant font-medium text-gray-900 mt-1 text-center w-full">days</p>
+	</div>
+	<h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+	<div class="timer w-10">
+		<div class="bg-north rounded-lg overflow-hidden">
+			<h3 class="countdown-element hours font-Cormorant font-semibold text-white text-center"></h3>
+		</div>
+		<p class="text-sm font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">hours</p>
+	</div>
+	<h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+	<div class="timer w-10">
+		<div class="bg-north rounded-lg overflow-hidden">
+			<h3
+				class="countdown-element minutes font-Cormorant font-semibold text-white text-center"
+			></h3>
+		</div>
+		<p class="text-sm font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">minutes</p>
+	</div>
+	<h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+	<div class="timer w-10">
+		<div class="bg-north rounded-lg overflow-hidden">
+			<h3
+				class="countdown-element seconds font-Cormorant font-semibold text-white text-center animate-countinsecond"
+			></h3>
+		</div>
+		<p class="text-sm font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">seconds</p>
+	</div>
+</div>

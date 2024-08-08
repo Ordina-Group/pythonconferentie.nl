@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <div class="m-8">
 	<h1 class="mt-20 py-6 text-3xl font-bold">CODE OF CONDUCT</h1>
 	<div>

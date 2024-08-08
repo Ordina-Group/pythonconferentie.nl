@@ -13,8 +13,10 @@
 	<div class="relative mt-3 w-full">
 		<TopNavSection></TopNavSection>
 
-    <div class="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center justify-center">
-      <div class="order-2 md:order-1">
+		<div
+			class="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center justify-center"
+		>
+			<div class="order-2 md:order-1">
 				<TagBlock direction="right" extend={true} backgroundColor="north3">
 					<div class="inline-flex text-lg text-white">
 						<div class="text-xl">
@@ -24,25 +26,29 @@
 					</div>
 				</TagBlock>
 			</div>
-      <div class="order-1 md:order-2">				
+			<div class="order-1 md:order-2">
 				<a href="https://pythonconferentie.nl" class="w-96">
 					<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="" />
 				</a>
 			</div>
-      <div class="order-3 md:order-3">
+			<div class="order-3 md:order-3">
 				<TagBlock direction="left" extend={true} backgroundColor="north2">
 					<div class="inline-flex text-lg text-white">
-						<a href="https://www.eventbrite.nl/e/tickets-pycon-nl-916084723067?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" class="hover:scale-105 text-xl">
+						<a
+							href="https://www.eventbrite.nl/e/tickets-pycon-nl-916084723067?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+							class="hover:scale-105 text-xl"
+						>
 							<span class="pr-4 text-ordina font-bold">Get your ticket now!</span>
 						</a>
 					</div>
 				</TagBlock>
 			</div>
-    </div>
+		</div>
 
 		<div class="mt-4 flex items-center justify-center">
-			<a 
-				href="https://www.eventbrite.nl/e/tickets-pycon-nl-916084723067?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl">
+			<a
+				href="https://www.eventbrite.nl/e/tickets-pycon-nl-916084723067?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+			>
 				<TagBlock class="text-lg" backgroundColor="north">
 					<div class="hover:scale-105 text-3xl font-bold">
 						PYCON (NL)<span class="px-4">|</span><span class="pr-4 text-ordina">2024</span>
@@ -50,7 +56,6 @@
 				</TagBlock>
 			</a>
 		</div>
-
 
 		<!-- <a
 					class="inline"
@@ -65,7 +70,7 @@
 				</div>
 			    </TagBlock>
 				</a> -->
-				
+
 		<div class="mt-2 flex justify-center">
 			<a class="mb-10 inline" href="#info">
 				<Icon class="text-white opacity-75" data={chevronDown} scale={3} />

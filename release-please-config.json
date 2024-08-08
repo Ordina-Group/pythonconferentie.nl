@@ -1,25 +1,70 @@
 {
-  "changelog-sections": [
-    {
-      "type": "feat",
-      "section": "New",
-      "hidden": false
-    },
-    {
-      "type": "fix",
-      "section": "Changed and fixed",
-      "hidden": false
-    },
-    {
-      "type": "chore",
-      "section": "Miscellaneous",
-      "hidden": false
-    }
-  ],
-  "packages": {
-    ".": {
-      "release-type": "node",
-      "package-name": "pythonconference"
-    }
-  }
+	"last-release-sha": "d5028820cd43ebe4134fb552e9fe4096e49b7cdc",
+	"changelog-sections": [
+		{
+			"type": "feat",
+			"section": "New",
+			"hidden": false
+		},
+		{
+			"type": "fix",
+			"section": "Changed and/or fixed",
+			"hidden": false
+		},
+		{
+			"type": "chore",
+			"section": "Miscellaneous",
+			"hidden": false
+		},
+		{
+			"type": "perf",
+			"section": "Performance Improvements",
+			"hidden": false
+		},
+		{
+			"type": "revert",
+			"section": "Reverts",
+			"hidden": false
+		},
+		{
+			"type": "docs",
+			"section": "Documentation",
+			"hidden": true
+		},
+		{
+			"type": "style",
+			"section": "Styles",
+			"hidden": true
+		},
+		{
+			"type": "chore",
+			"section": "Miscellaneous Chores",
+			"hidden": true
+		},
+		{
+			"type": "refactor",
+			"section": "Code Refactoring",
+			"hidden": true
+		},
+		{
+			"type": "test",
+			"section": "Tests",
+			"hidden": true
+		},
+		{
+			"type": "build",
+			"section": "Build System",
+			"hidden": true
+		},
+		{
+			"type": "ci",
+			"section": "Continuous Integration",
+			"hidden": true
+		}
+	],
+	"packages": {
+		".": {
+			"release-type": "node"
+		}
+	}
 }
