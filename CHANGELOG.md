@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.8.0...pythonconferentie.nl-v1.9.0) (2024-08-08)
+
+
+### New
+
+* Added top navigation ([f1c28d1](https://github.com/Ordina-Group/pythonconferentie.nl/commit/f1c28d153cb342299b61746a2b4ec155f0e5744e))
+
 ## [1.8.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.7.0...pythonconferentie.nl-v1.8.0) (2024-07-31)
 
 
