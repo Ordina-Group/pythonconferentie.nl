@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.0...pythonconferentie.nl-v1.9.1) (2024-08-20)
+
+
+### Miscellaneous
+
+* **main:** small changes and fixes ([6feaec8](https://github.com/Ordina-Group/pythonconferentie.nl/commit/6feaec85bfaeb88452ae0e050779b2041ff6b9f8))
+
 ## [1.9.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.8.0...pythonconferentie.nl-v1.9.0) (2024-08-08)
 
 
