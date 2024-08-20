@@ -30,11 +30,10 @@
             </TagBlock></div>
 
             <div class="mt-4 flex items-center justify-center">
-                <a 
-                    href="https://ordinaweb-my.sharepoint.com/:b:/g/personal/eva_munscher_ordina_nl/EfPnNVqX-bVHo0CbAJr5lsIBV5yL4pmTfFfAVSOE21gj3g?e=ktgCbf">
+                <a href="/PYCON NL Sponsorship brochure.pdf" target="_blank" rel="noopener noreferrer">
                     <TagBlock class="text-lg" backgroundColor="north">
                         <div class="hover:scale-105 font-bold">
-                            Download <span class="px-4">|</span><span class="text-ordina">PYCON NL Sponsoship brochure</span>
+                            Download <span class="px-4">|</span><span class="text-ordina">PYCON NL Sponsorship brochure</span>
                         </div>
                     </TagBlock>
                 </a>
@@ -56,21 +55,14 @@
                 <h1 class="font-bold text-3xl text-center">Sponsors 2024</h1>
 
                 <div class='border border-black relative mt-12 text-center'>
-                    <div class="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl pb-8">
-                        <div class="p-6 text-center">
-                          <h4 class="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                            Title sponsor
-                          </h4>
-                        </div>
+                    <h2 class="mt-8 mb-2 font-bold">Gold</h2>
+                    <div class="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl py-6">
                         <div class="flex items-center justify-center">
                             <a href="https://www.soprasteria.com/" target="_blank">
                                 <img src="/marketing/LOGO_SOPRA_STERIA_COLORS_RVB.jpg" alt="Python Conference Logo" class="w-96" />
                             </a>
                         </div>
                       </div>
-
-                    <h2 class="mt-8 font-bold">Gold</h2>
-                    <div></div>
                     <h2 class="mt-8 font-bold">Silver</h2>
                     <div></div>
                     <h2 class="mt-8 font-bold">Bronze</h2>
