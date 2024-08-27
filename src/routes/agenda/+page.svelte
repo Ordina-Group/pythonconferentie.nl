@@ -19,40 +19,40 @@
                     <Session time={'9:15 - 10:00'} title="Registration"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'9:15 - 10:00'}  speakerName="Brett Slatkin" speakerImage="/speakers/jb.png" title="Speaker session"></Session>
+                    <Session time={'9:15 - 10:00'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'10:05 - 10:35'} speakerName="Brett Slatkin" speakerImage="/speakers/jhb.png" title="Speaker session"></Session>
+                    <Session time={'10:05 - 10:35'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
                     <Session time={'10:35 - 10:50'} title="Coffee break ☕"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'10:50 - 	11:20'} speakerName="Brett Slatkin" speakerImage="/speakers/lc.png" title="Speaker session"></Session>
+                    <Session time={'10:50 - 	11:20'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'11:25 - 11:55'} speakerName="Brett Slatkin" speakerImage="/speakers/ml.png" title="Speaker session"></Session>
+                    <Session time={'11:25 - 11:55'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'12:00 - 12:30'} speakerName="Brett Slatkin" speakerImage="/speakers/mt.png" title="Speaker session"></Session>
+                    <Session time={'12:00 - 12:30'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
                     <Session time={'12:30 - 13:20'} title="Lunch break 🌮"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'13:30 - 14:00'} speakerName="Brett Slatkin" speakerImage="/speakers/sz.png" title="Speaker session"></Session>
+                    <Session time={'13:30 - 14:00'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'14:05 - 14:35'} speakerName="Brett Slatkin" speakerImage="/speakers/jb.png" title="Speaker session"></Session>
+                    <Session time={'14:05 - 14:35'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
                     <Session time={'14:35 - 14:50'} title="Coffee break ☕"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'14:50 - 15:20'} speakerName="Brett Slatkin" speakerImage="/speakers/ml.png" title="Speaker session"></Session>
+                    <Session time={'14:50 - 15:20'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
-                    <Session time={'15:25 - 15:55'} speakerName="Brett Slatkin" speakerImage="/speakers/mt.png" title="Speaker session"></Session>
+                    <Session time={'15:25 - 15:55'} title="Speaker session"></Session>
                 </div>
                 <div class="rounded-xl bg-white shadow-md">
                     <Session time={'15:55 - 16:10'} title="Coffee break ☕"></Session>
