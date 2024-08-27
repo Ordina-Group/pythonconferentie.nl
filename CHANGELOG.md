@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.2...pythonconferentie.nl-v1.9.3) (2024-08-27)
+
+
+### Miscellaneous
+
+* **main:** remove speakers for now ([3767ba1](https://github.com/Ordina-Group/pythonconferentie.nl/commit/3767ba13e7cc631b64be2770a729f25d4d8e83bb))
+
 ## [1.9.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.1...pythonconferentie.nl-v1.9.2) (2024-08-27)
 
 
