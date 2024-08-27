@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.1...pythonconferentie.nl-v1.9.2) (2024-08-27)
+
+
+### Miscellaneous
+
+* **main:** updates to agenda page ([61fca0b](https://github.com/Ordina-Group/pythonconferentie.nl/commit/61fca0b82e26dfe7ba7b5ab0ccf02d4a5fa6ee04))
+
 ## [1.9.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.0...pythonconferentie.nl-v1.9.1) (2024-08-20)
 
 
