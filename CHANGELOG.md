@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.3...pythonconferentie.nl-v1.10.0) (2024-09-06)
+
+
+### Miscellaneous
+
+* **main:** for deployment ([81911e3](https://github.com/Ordina-Group/pythonconferentie.nl/commit/81911e32374360b1701e0523609608301a18c1cf))
+
 ## [1.9.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.2...pythonconferentie.nl-v1.9.3) (2024-08-27)
 
 
