@@ -7,8 +7,6 @@
 	export let data: PageData;
 </script>
 
-
-
 <div class="bg-western">
 	<header class="flex-center relative w-full bg-shark" id="header">
 		<TopNavSection></TopNavSection>
