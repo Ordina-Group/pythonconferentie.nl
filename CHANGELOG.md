@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.0...pythonconferentie.nl-v1.10.1) (2024-09-10)
+
+
+### Miscellaneous
+
+* **main:** Small adjustment to the website ([c4a8832](https://github.com/Ordina-Group/pythonconferentie.nl/commit/c4a8832081c8aed4a7d3cec6ee633559a6740e1e))
+
 ## [1.10.0](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.9.3...pythonconferentie.nl-v1.10.0) (2024-09-06)
 
 
