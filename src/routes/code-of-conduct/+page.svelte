@@ -198,12 +198,12 @@
 			address
 			here
 		>
-			which is monitored by <monitors names here>.</monitors></email
+			which is monitored by pycon.netherlands@gmail.com.</email
 		>
 	</div>
 	<div class="pb-4">In case of a conflict of interest, you can individually contact:</div>
 	<ul class="pl-14">
-		<li class="pb-4">Person that’s not in the group of “monitors names here” above</li>
+		<li class="pb-4">Ingrid.peters@soprasteria.com. (Person that’s not in the group of “PyCon NL”)</li>
 	</ul>
 	<div class="pb-4">
 		Conference staff will be happy to help participants contact venue security or local law

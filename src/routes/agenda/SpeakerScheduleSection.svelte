@@ -9,11 +9,17 @@
 			<div class="grow text-2xl">Walk-in</div>
 		</div>
 	</TagBlock>
+	<TagBlock class="mt-2" direction="right" extend={true} backgroundColor="north3">
+		<div class="flex w-screen max-w-xl gap-5 font-bold">
+			<div class="pl-5 text-2xl sm:pl-0">9:00 - 9:15</div>
+			<div class="grow text-2xl">Opening</div>
+		</div>
+	</TagBlock>
 	<TagBlock class="mt-2" direction="left" extend={true} backgroundColor="north2">
 		<div class="flex w-screen max-w-xl gap-5">
-			<div class="pl-6 w-48">9:15 - 10:00</div>
+			<div class="pl-6 w-56">9:15 - 10:00</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl font-bold">Localization and translation of programming languages</div>
+				<div class="text-xl font-bold">Key Note 1: Localization and translation of programming languages</div>
 				<div class="text-lg text-ordina">Felienne Hermans (Vrije Universiteit Amsterdam)</div>
 			</div>
 		</div>
@@ -124,7 +130,12 @@
 			</div>
 		</div>
 	</TagBlock>
-
+	<TagBlock class="mt-2" direction="right" extend={true} backgroundColor="north3">
+		<div class="flex w-screen max-w-xl gap-5 font-bold">
+			<div class="pl-5 text-2xl sm:pl-0">16:55 - 17:05</div>
+			<div class="grow text-2xl">Closing</div>
+		</div>
+	</TagBlock>
 	<TagBlock class="mt-2" direction="right" extend={true} backgroundColor="north3">
 		<div class="flex w-screen max-w-xl gap-5 font-bold">
 			<div class="pl-5 text-2xl sm:pl-0">17:05 - 18:30</div>
