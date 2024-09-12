@@ -125,7 +125,7 @@
 		<div class="flex w-screen max-w-xl gap-5">
 			<div class="pl-6 w-36">16:10 - 16:55</div>
 			<div class="inline-flex grow flex-col pr-2">
-				<div class="text-xl font-bold">Key Note 2</div>
+				<div class="text-xl font-bold">Key Note 2: The Zen of Polymorphism</div>
 				<div class="text-lg text-ordina">Brett Slatkin (Google)</div>
 			</div>
 		</div>
