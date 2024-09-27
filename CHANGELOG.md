@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.1...pythonconferentie.nl-v1.10.2) (2024-09-27)
+
+
+### Miscellaneous
+
+* **main:** text update ([75325de](https://github.com/Ordina-Group/pythonconferentie.nl/commit/75325dede8114d6ac143da7f23480de97c6b406d))
+
 ## [1.10.1](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.0...pythonconferentie.nl-v1.10.1) (2024-09-10)
 
 
