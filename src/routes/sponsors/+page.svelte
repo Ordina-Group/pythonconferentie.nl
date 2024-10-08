@@ -63,10 +63,13 @@
                             </a>
                         </div>
                       </div>
-                    <h2 class="mt-8 font-bold">Silver</h2>
-                    <div></div>
-                    <h2 class="mt-8 font-bold">Bronze</h2>
-                    <div></div>
+                    <h2 class="mt-8 font-bold">Grant</h2>
+                    <div class="mb-8">EuroPython Society</div>
+                    <div class="flex items-center justify-center">
+                        <a href="https://www.europython-society.org/" target="_blank">
+                            <img src="/marketing/EuroPython_Society.png" alt="EuroPython Society" class="w-96" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

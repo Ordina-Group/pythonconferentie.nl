@@ -13,8 +13,8 @@
 	</header>
 
 	<div class="m-8 mt-20 py-6">
- 		<div class=" m-auto w-full max-w-6xl text-xl text-black">
-            <SpeakerScheduleSection></SpeakerScheduleSection>
+ 		<div class="m-auto w-full max-w-6xl text-black">
+      <SpeakerScheduleSection />
 		</div>
 	</div>
 	<PracticalInformationSection></PracticalInformationSection>
