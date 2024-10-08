@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.2...pythonconferentie.nl-v1.10.3) (2024-10-08)
+
+
+### Miscellaneous
+
+* **main:** added more details to agenda. ([bd2b1af](https://github.com/Ordina-Group/pythonconferentie.nl/commit/bd2b1af27df5d6e4cd872a6411d9b086c9ebf319))
+
 ## [1.10.2](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.1...pythonconferentie.nl-v1.10.2) (2024-09-27)
 
 
