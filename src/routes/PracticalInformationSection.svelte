@@ -31,6 +31,11 @@
 					<div class="text-xl">Jaarbeursplein 6</div>
 					<div class="text-xl">3521 AL Utrecht</div>
 					<div class="text-xl">The Netherlands</div>
+					<button class="mt-2 ml-6 cursor-pointer text-left select-none"
+								on:click={() => window.location.href = '/practical-information'}
+					>
+						<TagBlock small backgroundColor="ordina" class="hover:scale-105">More info</TagBlock>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -58,6 +63,6 @@
 		rel="noreferrer"
 		href="https://github.com/Ordina-Group/pythonconferentie.nl"
 	>
-		<TagBlock backgroundColor="north3" small>Source on GitHub</TagBlock>
+		<TagBlock backgroundColor="north3" small class="hover:scale-105">Source on GitHub</TagBlock>
 	</a>
 </div>

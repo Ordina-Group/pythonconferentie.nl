@@ -1,15 +1,8 @@
 <script lang="ts">
 	import TagBlock from '$lib/components/TagBlock.svelte';
 	import { fade } from 'svelte/transition';
-
-	type Speaker = {
-		name: string;
-		letters: string;
-		title: string;
-		employer: string;
-		image?: string;
-		bio?: string;
-	};
+	import type { Speaker } from '../SpeakerBio.svelte';
+	import SpeakerBio from '../SpeakerBio.svelte';
 
 	let speakers: Speaker[] = [
 		{
@@ -95,6 +88,11 @@
 	];
 
 	let focussedSpeaker: number | null = null;
+
+  // Function to handle clearing the focussedSpeaker
+  function clearFocussedSpeaker() {
+    focussedSpeaker = null;
+  }
 </script>
 
 <div class="relative w-full px-2 py-10 text-black" id="speakers">
@@ -104,7 +102,7 @@
 		<div
 			in:fade={{ duration: 250, delay: 250 }}
 			out:fade={{ duration: 250 }}
-			class="mx-auto grid w-3/4 grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3"
+			class="mx-auto grid gap-10 md:grid-cols-2 xl:grid-cols-3"
 		>
 			{#each speakers as speaker, index}
 				<div class="mb-16 h-56 w-full">
@@ -151,40 +149,6 @@
 			{/each}
 		</div>
 	{:else}
-		<div
-			in:fade={{ duration: 250, delay: 250 }}
-			out:fade={{ duration: 250 }}
-			class="mx-auto flex w-full flex-col items-center rounded-2xl bg-fountain p-5 text-center shadow-xl md:w-2/3 xl:w-1/3"
-		>
-			{#if speakers[focussedSpeaker].image}
-				<img
-					class="-mt-16 aspect-square h-32 w-32 rounded-full"
-					src={speakers[focussedSpeaker].image}
-					alt={speakers[focussedSpeaker].name}
-				/>
-			{:else}
-				<div
-					class="relative -mt-16 inline-flex h-32 w-32 items-center justify-center overflow-hidden rounded-full bg-fountain-600"
-				>
-					<span class="text-6xl font-medium text-fountain-800"
-						>{speakers[focussedSpeaker].letters}</span
-					>
-				</div>
-			{/if}
-			<div class="text-xl">{speakers[focussedSpeaker].name}</div>
-			<div class="text-lg">{speakers[focussedSpeaker].title}</div>
-			<div class="text-md">{speakers[focussedSpeaker].employer}</div>
-			<div class="whitespace-pre-line">
-				{#if speakers[focussedSpeaker].bio}
-					{speakers[focussedSpeaker].bio}
-				{:else}
-					AttributeError: 'dict' object has no attribute 'speakerInfo' - this speakers bio is coming
-					soon.
-				{/if}
-			</div>
-			<button on:click={() => (focussedSpeaker = null)} class="mt-2 cursor-pointer select-none">
-				<TagBlock small backgroundColor="ordina">Back</TagBlock>
-			</button>
-		</div>
+		<SpeakerBio on:goBack={clearFocussedSpeaker} speaker={speakers[focussedSpeaker]} ></SpeakerBio>
 	{/if}
 </div>
