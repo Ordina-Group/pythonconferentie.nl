@@ -1,8 +1,8 @@
-<img align="right" width="250" alt="PythonConferentie.nl logo" src="./static/marketing/socials.png">
+<img align="right" width="250" alt="Pycon-nl.org logo" src="./static/marketing/socials.png">
 
-# PythonConferentie.nl
+# Pycon-nl.org
 
-Here's the code of the website [pythonconferentie.nl](https://pythonconferentie.nl/).
+Here's the code of the website [pycon-nl.org](https://pycon-nl.org/).
 
 ## Tech stack
 
