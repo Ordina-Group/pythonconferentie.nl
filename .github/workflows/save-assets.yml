@@ -1,0 +1,45 @@
+name: Save Assets as a Github Release
+
+on: 
+  push:
+    tags:
+      # Try to only match year name tags, e.g. 2024. This can also be enforced with the setting "restrict tag names" in the repository settings
+      - '202*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install and Build components 🔧
+        # .nojekyll: do not ignore _ dirs
+        run: |
+          npm ci
+          npm run build
+          touch dist/.nojekyll
+          tar -czvf dist.tar.gz -C dist .
+        # mkdir 
+        #     CI: false # true -> fails on warning
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "dist.tar.gz"
+          body: "Final version for ${{ steps.extract_branch.outputs.branch }}"
+          allowUpdates: true
+          replacesArtifacts: true

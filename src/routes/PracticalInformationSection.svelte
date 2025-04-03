@@ -22,7 +22,7 @@
 				<a target="_blank" rel="noreferrer" href="https://goo.gl/maps/PM1SP5jn8Z9M3LZa7"
 					><img
 						class=" w-60 rounded-full p-1 ring-2 ring-north-50"
-						src="/map.png"
+						src="./map.png"
 						alt="A map showing where the Jaarbeurs Utrecht is located"
 					/></a
 				>

@@ -28,7 +28,7 @@
 			</div>
 			<div class="order-1 md:order-2">
 				<a href="https://pythonconferentie.nl" class="w-96">
-					<img src="/logo-sopra4.svg" alt="Python Conference Logo" class="" />
+					<img src="./logo-sopra4.svg" alt="Python Conference Logo" class="" />
 				</a>
 			</div>
 			<div class="order-3 md:order-3">
