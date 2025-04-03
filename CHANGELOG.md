@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.10.4](https://github.com/Ordina-Group/pycon-nl.org/compare/pythonconferentie.nl-v1.10.3...pythonconferentie.nl-v1.10.4) (2025-04-03)
+
+
+### Miscellaneous
+
+* deploy to github pages ([9a6120c](https://github.com/Ordina-Group/pycon-nl.org/commit/9a6120c9f0e302bc3dd36563274e662bcd64e04f))
+* prepare saving 2024 version ([6097fe5](https://github.com/Ordina-Group/pycon-nl.org/commit/6097fe57e737983ab068b882066ca75c07a5fa53))
+* update domain links ([6a0467a](https://github.com/Ordina-Group/pycon-nl.org/commit/6a0467ae1fe38dac16a9cfd0271c258e9ebdf9ee))
+
 ## [1.10.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.2...pythonconferentie.nl-v1.10.3) (2024-10-08)
 
 
