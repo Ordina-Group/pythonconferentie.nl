@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.4](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.3...pythonconferentie.nl-v1.10.4) (2025-04-03)
+
+
+### Miscellaneous
+
+* preparing saving 2024 version ([c1006c8](https://github.com/Ordina-Group/pythonconferentie.nl/commit/c1006c8c4b7746a937cce76344de31cd57c06475))
+
 ## [1.10.3](https://github.com/Ordina-Group/pythonconferentie.nl/compare/pythonconferentie.nl-v1.10.2...pythonconferentie.nl-v1.10.3) (2024-10-08)
 
 
